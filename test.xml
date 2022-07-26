@@ -6,7 +6,8 @@
     <internalKey>SA0001</internalKey>
     <description><![CDATA[<p>XML comment analysis can only be performed when the project is configured to parse documentation comments. To enable this functionality, update the project to produce an XML documentation file as part of the build.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA0001.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA0001.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -20,7 +21,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
 
 {0}</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA0002.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA0002.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -32,7 +34,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1000</internalKey>
     <description><![CDATA[<p>The spacing around a C# keyword is incorrect.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1000.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1000.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -44,7 +47,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1001</internalKey>
     <description><![CDATA[<p>The spacing around a comma is incorrect, within a C# code file.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1001.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1001.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -56,7 +60,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1002</internalKey>
     <description><![CDATA[<p>The spacing around a semicolon is incorrect, within a C# code file.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1002.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1002.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -68,7 +73,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1003</internalKey>
     <description><![CDATA[<p>The spacing around an operator symbol is incorrect, within a C# code file.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1003.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1003.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -80,7 +86,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1004</internalKey>
     <description><![CDATA[<p>A line within a documentation header above a C# element does not begin with a single space.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1004.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1004.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -92,7 +99,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1005</internalKey>
     <description><![CDATA[<p>A single-line comment within a C# code file does not begin with a single space.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1005.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1005.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -104,7 +112,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1006</internalKey>
     <description><![CDATA[<p>A C# preprocessor-type keyword is preceded by space.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1006.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1006.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -116,7 +125,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1007</internalKey>
     <description><![CDATA[<p>The operator keyword within a C# operator overload method is not followed by any whitespace.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1007.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1007.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -128,7 +138,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1008</internalKey>
     <description><![CDATA[<p>An opening parenthesis within a C# statement is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1008.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1008.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -140,7 +151,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1009</internalKey>
     <description><![CDATA[<p>A closing parenthesis within a C# statement is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1009.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1009.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -152,7 +164,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1010</internalKey>
     <description><![CDATA[<p>An opening square bracket within a C# statement is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1010.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1010.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -164,7 +177,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1011</internalKey>
     <description><![CDATA[<p>A closing square bracket within a C# statement is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1011.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1011.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -176,7 +190,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1012</internalKey>
     <description><![CDATA[<p>An opening brace within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1012.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1012.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -188,7 +203,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1013</internalKey>
     <description><![CDATA[<p>A closing brace within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1013.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1013.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -200,7 +216,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1014</internalKey>
     <description><![CDATA[<p>An opening generic bracket within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1014.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1014.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -212,7 +229,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1015</internalKey>
     <description><![CDATA[<p>A closing generic bracket within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1015.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1015.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -224,7 +242,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1016</internalKey>
     <description><![CDATA[<p>An opening attribute bracket within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1016.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1016.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -236,7 +255,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1017</internalKey>
     <description><![CDATA[<p>A closing attribute bracket within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1017.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1017.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -248,7 +268,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1018</internalKey>
     <description><![CDATA[<p>A nullable type symbol within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1018.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1018.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -260,7 +281,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1019</internalKey>
     <description><![CDATA[<p>The spacing around a member access symbol is incorrect, within a C# code file.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1019.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1019.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -272,7 +294,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1020</internalKey>
     <description><![CDATA[<p>An increment or decrement symbol within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1020.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1020.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -284,7 +307,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1021</internalKey>
     <description><![CDATA[<p>A negative sign within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1021.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1021.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -296,7 +320,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1022</internalKey>
     <description><![CDATA[<p>A positive sign within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1022.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1022.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -308,7 +333,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1023</internalKey>
     <description><![CDATA[<p>A dereference symbol or an access-of symbol within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1023.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1023.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -320,7 +346,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1024</internalKey>
     <description><![CDATA[<p>A colon within a C# element is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1024.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1024.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -332,7 +359,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1025</internalKey>
     <description><![CDATA[<p>The code contains multiple whitespace characters in a row.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1025.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1025.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -344,7 +372,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1026</internalKey>
     <description><![CDATA[<p>An implicitly typed array allocation within a C# code file is not spaced correctly.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1026.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1026.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -356,7 +385,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1027</internalKey>
     <description><![CDATA[<p>The code contains a tab or space character which is not consistent with the current project settings.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1027.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1027.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -368,7 +398,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1028</internalKey>
     <description><![CDATA[<p>There should not be any whitespace at the end of a line of code.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1028.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1028.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -380,7 +411,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1100</internalKey>
     <description><![CDATA[<p>A call to a member from an inherited class begins with 'base.', and the local class does not contain an override or implementation of the member.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1100.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1100.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -392,7 +424,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1101</internalKey>
     <description><![CDATA[<p>A call to an instance member of the local class or a base class is not prefixed with 'this.', within a C# code file.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1101.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1101.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -404,7 +437,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1106</internalKey>
     <description><![CDATA[<p>The C# code contains an extra semicolon.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1106.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1106.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -416,7 +450,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1107</internalKey>
     <description><![CDATA[<p>The C# code contains more than one statement on a single line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1107.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1107.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -428,7 +463,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1108</internalKey>
     <description><![CDATA[<p>A C# statement contains a comment between the declaration of the statement and the opening brace of the statement.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1108.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1108.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -440,7 +476,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1109</internalKey>
     <description><![CDATA[<p>A C# statement contains a region tag between the declaration of the statement and the opening brace of the statement.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1109.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1109.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -452,7 +489,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1102</internalKey>
     <description><![CDATA[<p>A C# query clause does not begin on the same line as the previous clause, or on the next line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1102.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1102.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -464,7 +502,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1103</internalKey>
     <description><![CDATA[<p>The clauses within a C# query expression are not all placed on the same line, and each clause is not placed on its own line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1103.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1103.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -476,7 +515,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1104</internalKey>
     <description><![CDATA[<p>A clause within a C# query expression begins on the same line as the previous clause, when the previous clause spans across multiple lines.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1104.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1104.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -488,7 +528,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1105</internalKey>
     <description><![CDATA[<p>A clause within a C# query expression spans across multiple lines, and does not begin on its own line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1105.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1105.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -500,7 +541,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1110</internalKey>
     <description><![CDATA[<p>The opening parenthesis or bracket is not placed on the same line as the method/indexer/attribute/array name.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1110.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1110.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -512,7 +554,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1111</internalKey>
     <description><![CDATA[<p>The closing parenthesis or bracket in a call to or declaration of a C# method/indexer/attribute/array/constructor/delegate is not placed on the same line as the last parameter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1111.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1111.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -524,7 +567,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1112</internalKey>
     <description><![CDATA[<p>The closing parenthesis or bracket in a call to a C# method or indexer, or the declaration of a method or indexer, is not placed on the same line as the opening bracket when the element does not take any parameters.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1112.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1112.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -536,7 +580,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1113</internalKey>
     <description><![CDATA[<p>A comma between two parameters in a call to a C# method or indexer, or in the declaration of a method or indexer, is not placed on the same line as the previous parameter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1113.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1113.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -548,7 +593,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1114</internalKey>
     <description><![CDATA[<p>The start of the parameter list for a method/constructor/indexer/array/operator call or declaration does not begin on the same line as the opening bracket, or on the line after the opening bracket.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1114.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1114.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -560,7 +606,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1115</internalKey>
     <description><![CDATA[<p>A parameter within a C# method or indexer call or declaration does not begin on the same line as the previous parameter, or on the next line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1115.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1115.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -572,7 +619,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1116</internalKey>
     <description><![CDATA[<p>The parameters to a C# method or indexer call or declaration span across multiple lines, but the first parameter does not start on the line after the opening bracket.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1116.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1116.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -584,7 +632,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1117</internalKey>
     <description><![CDATA[<p>The parameters to a C# method or indexer call or declaration are not all on the same line or each on a separate line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1117.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1117.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -596,7 +645,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1118</internalKey>
     <description><![CDATA[<p>A parameter to a C# method/indexer/attribute/array, other than the first parameter, spans across multiple lines. If the parameter is short, place the entire parameter on a single line. Otherwise, save the contents of the parameter in a temporary variable and pass the temporary variable as a parameter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1118.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1118.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -608,7 +658,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1120</internalKey>
     <description><![CDATA[<p>The C# comment does not contain any comment text.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1120.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1120.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -620,7 +671,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1121</internalKey>
     <description><![CDATA[<p>The code uses one of the basic C# types, but does not use the built-in alias for the type.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1121.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1121.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -632,7 +684,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1122</internalKey>
     <description><![CDATA[<p>The C# code includes an empty string, written as "".</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1122.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1122.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -644,7 +697,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1123</internalKey>
     <description><![CDATA[<p>The C# code contains a region within the body of a code element.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1123.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1123.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -656,7 +710,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1124</internalKey>
     <description><![CDATA[<p>The C# code contains a region.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1124.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1124.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -668,7 +723,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1125</internalKey>
     <description><![CDATA[<p>The Nullable T type has been defined not using the C# shorthand. For example, Nullable DateTime has been used instead of the preferred DateTime?</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1125.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1125.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -680,7 +736,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1126</internalKey>
     <description><![CDATA[<p>A call to a member is not prefixed with the 'this.', 'base.', 'object.' or 'typename.' prefix to indicate the intended method call, within a C# code file.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1126.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1126.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -692,7 +749,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1127</internalKey>
     <description><![CDATA[<p>Each type constraint clause for a generic type parameter should be listed on a line of code by itself.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1127.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1127.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -704,7 +762,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1128</internalKey>
     <description><![CDATA[<p>A constructor initializer, including the colon character, should be on its own line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1128.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1128.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -716,7 +775,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1129</internalKey>
     <description><![CDATA[<p>When creating a new instance of a value type T, the syntax 'default(T)' is functionally equivalent to the syntax 'new T()'. To avoid confusion regarding the behavior of the resulting instance, the first form is preferred.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1129.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1129.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -728,7 +788,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1130</internalKey>
     <description><![CDATA[<p>Lambda expressions are more succinct and easier to read than anonymous methods, so they should are preferred whenever the two are functionally equivalent.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1130.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1130.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -740,7 +801,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1131</internalKey>
     <description><![CDATA[<p>When a comparison is made between a variable and a literal, the variable should be placed on the left-hand-side to maximize readability.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1131.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1131.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -752,7 +814,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1132</internalKey>
     <description><![CDATA[<p>Each field should be declared on its own line, in order to clearly see each field of a type and allow for proper documentation of the behavior of each field.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1132.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1132.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -764,7 +827,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1133</internalKey>
     <description><![CDATA[<p>Each attribute usage should be placed in its own set of square brackets for maximum readability.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1133.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1133.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -776,7 +840,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1134</internalKey>
     <description><![CDATA[<p>Each attribute should be placed on its own line of code.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1134.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1134.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -788,7 +853,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1135</internalKey>
     <description><![CDATA[<p>All using directives should be qualified.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1135.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1135.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -800,7 +866,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1136</internalKey>
     <description><![CDATA[<p>Enum values should be placed on their own lines for maximum readability.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1136.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1136.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -812,7 +879,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1137</internalKey>
     <description><![CDATA[<p>Elements at the same level in the syntax tree should have the same indentation.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1137.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1137.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -824,7 +892,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1139</internalKey>
     <description><![CDATA[<p>Use literal suffix notation instead of casting, in order to improve readability, avoid bugs related to illegal casts and ensure that optimal IL is produced.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1139.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1139.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -836,7 +905,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SX1101</internalKey>
     <description><![CDATA[<p>A call to an instance member of the local class or a base class is prefixed with `this.`.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SX1101.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SX1101.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -848,7 +918,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1300</internalKey>
     <description><![CDATA[<p>The name of a C# element does not begin with an upper-case letter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1300.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1300.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -860,7 +931,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1301</internalKey>
     <description><![CDATA[<p>There are currently no situations in which this rule will fire.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1301.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1301.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -872,7 +944,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1302</internalKey>
     <description><![CDATA[<p>The name of a C# interface does not begin with the capital letter I.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1302.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1302.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -884,7 +957,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1303</internalKey>
     <description><![CDATA[<p>The name of a constant C# field should begin with an upper-case letter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1303.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1303.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -896,7 +970,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1304</internalKey>
     <description><![CDATA[<p>The name of a non-private readonly C# field should being with an upper-case letter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1304.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1304.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -908,7 +983,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1305</internalKey>
     <description><![CDATA[<p>The name of a field or variable in C# uses Hungarian notation.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1305.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1305.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -920,7 +996,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1306</internalKey>
     <description><![CDATA[<p>The name of a field in C# does not begin with a lower-case letter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1306.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1306.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -932,7 +1009,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1307</internalKey>
     <description><![CDATA[<p>The name of a public or internal field in C# does not begin with an upper-case letter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1307.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1307.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -944,7 +1022,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1308</internalKey>
     <description><![CDATA[<p>A field name in C# is prefixed with 'm_', 's_', or 't_'.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1308.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1308.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -956,7 +1035,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1309</internalKey>
     <description><![CDATA[<p>A field name in C# begins with an underscore.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1309.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1309.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -968,7 +1048,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1310</internalKey>
     <description><![CDATA[<p>A field name in C# contains an underscore.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1310.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1310.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -980,7 +1061,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1311</internalKey>
     <description><![CDATA[<p>The name of a static readonly field does not begin with an upper-case letter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1311.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1311.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -992,7 +1074,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1312</internalKey>
     <description><![CDATA[<p>The name of a variable in C# does not begin with a lower-case letter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1312.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1312.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1004,7 +1087,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1313</internalKey>
     <description><![CDATA[<p>The name of a parameter in C# does not begin with a lower-case letter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1313.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1313.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1016,7 +1100,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1314</internalKey>
     <description><![CDATA[<p>The name of a C# type parameter does not begin with the capital letter T.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1314.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1314.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1028,7 +1113,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SX1309</internalKey>
     <description><![CDATA[<p>A field name in C# does not begin with an underscore.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SX1309.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SX1309.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1040,7 +1126,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SX1309S</internalKey>
     <description><![CDATA[<p>A static field name in C# does not begin with an underscore.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SX1309S.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SX1309S.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1052,7 +1139,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1119</internalKey>
     <description><![CDATA[<p>A C# statement contains parenthesis which are unnecessary and should be removed.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1119.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1119.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1064,7 +1152,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1119_p</internalKey>
     <description><![CDATA[<p>A C# statement contains parenthesis which are unnecessary and should be removed.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1119.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1119.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1076,7 +1165,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1400</internalKey>
     <description><![CDATA[<p>The access modifier for a C# element has not been explicitly defined.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1400.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1400.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1088,7 +1178,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1401</internalKey>
     <description><![CDATA[<p>A field within a C# class has an access modifier other than private.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1401.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1401.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1100,7 +1191,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1402</internalKey>
     <description><![CDATA[<p>A C# code file contains more than one unique type.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1402.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1402.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1112,7 +1204,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1403</internalKey>
     <description><![CDATA[<p>A C# code file contains more than one namespace.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1403.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1403.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1124,7 +1217,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1404</internalKey>
     <description><![CDATA[<p>A Code Analysis SuppressMessage attribute does not include a justification.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1404.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1404.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1136,7 +1230,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1405</internalKey>
     <description><![CDATA[<p>A call to Debug.Assert in C# code does not include a descriptive message.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1405.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1405.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1148,7 +1243,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1406</internalKey>
     <description><![CDATA[<p>A call to Debug.Fail in C# code does not include a descriptive message.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1406.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1406.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1160,7 +1256,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1407</internalKey>
     <description><![CDATA[<p>A C# statement contains a complex arithmetic expression which omits parenthesis around operators.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1407.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1407.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1172,7 +1269,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1408</internalKey>
     <description><![CDATA[<p>A C# statement contains a complex conditional expression which omits parenthesis around operators.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1408.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1408.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1184,7 +1282,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1409</internalKey>
     <description><![CDATA[<p>A C# file contains code which is unnecessary and can be removed without changing the overall logic of the code.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1409.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1409.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1196,7 +1295,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1410</internalKey>
     <description><![CDATA[<p>A call to a C# anonymous method does not contain any method parameters, yet the statement still includes parenthesis.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1410.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1410.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1208,7 +1308,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1411</internalKey>
     <description><![CDATA[<p>TODO.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1411.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1411.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1220,7 +1321,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1412</internalKey>
     <description><![CDATA[<p>Source files should be saved using the UTF-8 encoding with a byte order mark</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1412.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1412.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1232,7 +1334,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1413</internalKey>
     <description><![CDATA[<p>A multi-line initializer in a C# code file should use a comma on the last line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1413.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1413.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1244,7 +1347,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1500</internalKey>
     <description><![CDATA[<p>The opening or closing brace within a C# statement, element, or expression is not placed on its own line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1500.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1500.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1256,7 +1360,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1501</internalKey>
     <description><![CDATA[<p>A C# statement containing opening and closing braces is written completely on a single line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1501.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1501.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1268,7 +1373,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1502</internalKey>
     <description><![CDATA[<p>A C# element containing opening and closing braces is written completely on a single line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1502.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1502.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1280,7 +1386,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1503</internalKey>
     <description><![CDATA[<p>The opening and closing braces for a C# statement have been omitted.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1503.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1503.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1292,7 +1399,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1504</internalKey>
     <description><![CDATA[<p>Within a C# property, indexer or event, at least one of the child accessors is written on a single line, and at least one of the child accessors is written across multiple lines.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1504.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1504.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1304,7 +1412,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1505</internalKey>
     <description><![CDATA[<p>An opening brace within a C# element, statement, or expression is followed by a blank line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1505.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1505.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1316,7 +1425,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1506</internalKey>
     <description><![CDATA[<p>An element documentation header above a C# element is followed by a blank line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1506.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1506.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1328,7 +1438,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1507</internalKey>
     <description><![CDATA[<p>The C# code contains multiple blank lines in a row.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1507.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1507.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1340,7 +1451,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1508</internalKey>
     <description><![CDATA[<p>A closing brace within a C# element, statement, or expression is preceded by a blank line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1508.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1508.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1352,7 +1464,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1509</internalKey>
     <description><![CDATA[<p>An opening brace within a C# element, statement, or expression is preceded by a blank line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1509.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1509.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1364,7 +1477,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1510</internalKey>
     <description><![CDATA[<p>Chained C# statements are separated by a blank line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1510.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1510.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1376,7 +1490,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1511</internalKey>
     <description><![CDATA[<p>The while footer at the bottom of a do-while statement is separated from the statement by a blank line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1511.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1511.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1388,7 +1503,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1512</internalKey>
     <description><![CDATA[<p>A single-line comment within C# code is followed by a blank line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1512.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1512.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1400,7 +1516,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1513</internalKey>
     <description><![CDATA[<p>A closing brace within a C# element, statement, or expression is not followed by a blank line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1513.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1513.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1412,7 +1529,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1514</internalKey>
     <description><![CDATA[<p>An element documentation header above a C# element is not preceded by a blank line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1514.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1514.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1424,7 +1542,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1515</internalKey>
     <description><![CDATA[<p>A single-line comment within C# code is not preceded by a blank line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1515.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1515.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1436,7 +1555,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1516</internalKey>
     <description><![CDATA[<p>Adjacent C# elements are not separated by a blank line.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1516.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1516.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1448,7 +1568,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1517</internalKey>
     <description><![CDATA[<p>The code file has blank lines at the start.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1517.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1517.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1460,7 +1581,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1518</internalKey>
     <description><![CDATA[<p>Code should not contain blank lines at the end of the file</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1518.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1518.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1472,7 +1594,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1519</internalKey>
     <description><![CDATA[<p>The opening and closing braces for a multi-line C# statement have been omitted.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1519.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1519.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1484,7 +1607,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1520</internalKey>
     <description><![CDATA[<p>The opening and closing braces of a chained if/else if/else construct were included for some clauses, but omitted for others.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1520.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1520.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1496,7 +1620,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1200</internalKey>
     <description><![CDATA[<p>A C# using directive is placed outside of a namespace element.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1200.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1200.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1508,7 +1633,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1201</internalKey>
     <description><![CDATA[<p>An element within a C# code file is out of order in relation to the other elements in the code.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1201.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1201.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1520,7 +1646,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1202</internalKey>
     <description><![CDATA[<p>An element within a C# code file is out of order in relation to other elements in the code.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1202.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1202.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1532,7 +1659,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1203</internalKey>
     <description><![CDATA[<p>A constant field is placed beneath a non-constant field.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1203.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1203.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1544,7 +1672,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1204</internalKey>
     <description><![CDATA[<p>A static element is positioned beneath an instance element.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1204.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1204.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1556,7 +1685,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1205</internalKey>
     <description><![CDATA[<p>The partial element does not have an access modifier defined.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1205.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1205.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1568,7 +1698,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1206</internalKey>
     <description><![CDATA[<p>The keywords within the declaration of an element do not follow a standard ordering scheme.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1206.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1206.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1580,7 +1711,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1207</internalKey>
     <description><![CDATA[<p>The keyword '{0}' is positioned after the keyword '{1}' within the declaration of a {0} {1} C# element.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1207.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1207.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1592,7 +1724,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1208</internalKey>
     <description><![CDATA[<p>A using directive which declares a member of the 'System' namespace appears after a using directive which declares a member of a different namespace, within a C# code file.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1208.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1208.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1604,7 +1737,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1209</internalKey>
     <description><![CDATA[<p>A using-alias directive is positioned before a regular using directive.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1209.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1209.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1616,7 +1750,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1210</internalKey>
     <description><![CDATA[<p>The using directives within a C# code file are not sorted alphabetically by namespace.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1210.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1210.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1628,7 +1763,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1211</internalKey>
     <description><![CDATA[<p>The using-alias directives within a C# code file are not sorted alphabetically by alias name.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1211.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1211.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1640,7 +1776,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1212</internalKey>
     <description><![CDATA[<p>A get accessor appears after a set accessor within a property or indexer.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1212.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1212.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1652,7 +1789,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1213</internalKey>
     <description><![CDATA[<p>An add accessor appears after a remove accessor within an event.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1213.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1213.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1664,7 +1802,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1214</internalKey>
     <description><![CDATA[<p>A readonly field is positioned beneath a non-readonly field.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1214.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1214.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1676,7 +1815,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1216</internalKey>
     <description><![CDATA[<p>A using static directive is positioned before a regular or after an alias using directive.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1216.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1216.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1688,7 +1828,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1217</internalKey>
     <description><![CDATA[<p>All using static directives should be ordered alphabetically.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1217.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1217.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1700,7 +1841,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1633</internalKey>
     <description><![CDATA[<p>A C# code file is missing a standard file header.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1633.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1633.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1712,7 +1854,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1634</internalKey>
     <description><![CDATA[<p>The file header at the top of a C# code file is missing a copyright tag.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1634.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1634.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1724,7 +1867,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1635</internalKey>
     <description><![CDATA[<p>The file header at the top of a C# code file is missing copyright text.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1635.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1635.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1736,7 +1880,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1636</internalKey>
     <description><![CDATA[<p>The file header at the top of a C# code file does not contain the appropriate copyright text.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1636.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1636.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1748,7 +1893,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1637</internalKey>
     <description><![CDATA[<p>The file header at the top of a C# code file is missing the file name.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1637.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1637.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1760,7 +1906,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1638</internalKey>
     <description><![CDATA[<p>The file attribute within copyright tag of the file header at the top of a C# code file does not contain the name of the file.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1638.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1638.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1772,7 +1919,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1639</internalKey>
     <description><![CDATA[<p>The file header at the top of a C# code file does not contain a filled-in summary tag.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1639.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1639.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1784,7 +1932,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1640</internalKey>
     <description><![CDATA[<p>The file header at the top of a C# code file does not contain company name text.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1640.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1640.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1796,7 +1945,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1641</internalKey>
     <description><![CDATA[<p>The file header at the top of a C# code file does not contain the appropriate company name text.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1641.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1641.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1808,7 +1958,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1620</internalKey>
     <description><![CDATA[<p>The  typeparam tags within the Xml header documentation for a generic C# element do not match the generic type parameters on the element.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1620.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1620.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1820,7 +1971,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1621</internalKey>
     <description><![CDATA[<p>A  typeparam tag within the XML header documentation for a generic C# element is missing a name attribute, or contains an empty name attribute.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1621.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1621.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1832,7 +1984,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1622</internalKey>
     <description><![CDATA[<p>A  typeparam tag within the Xml header documentation for a generic C# element is empty.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1622.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1622.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1844,7 +1997,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1623</internalKey>
     <description><![CDATA[<p>The documentation text within a C# property’s  summary tag does not match the accessors within the property.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1623.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1623.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1856,7 +2010,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1624</internalKey>
     <description><![CDATA[<p>The documentation text within a C# property’s  summary tag takes into account all of the accessors within the property, but one of the accessors has limited access.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1624.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1624.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1868,7 +2023,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1600</internalKey>
     <description><![CDATA[<p>A C# code element is missing a documentation header.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1600.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1600.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1880,7 +2036,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1601</internalKey>
     <description><![CDATA[<p>A C# partial element is missing a documentation header.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1601.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1601.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1892,7 +2049,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1602</internalKey>
     <description><![CDATA[<p>An item within a C# enumeration is missing an Xml documentation header.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1602.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1602.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1904,7 +2062,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1603</internalKey>
     <description><![CDATA[<p>The XML within a C# element’s document header is badly formed.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1603.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1603.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1916,7 +2075,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1604</internalKey>
     <description><![CDATA[<p>The XML header documentation for a C# element is missing a  summary tag.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1604.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1604.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1928,7 +2088,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1605</internalKey>
     <description><![CDATA[<p>The  summary or  content tag within the documentation header for a C# code element is missing or empty.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1605.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1605.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1940,7 +2101,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1606</internalKey>
     <description><![CDATA[<p>The  summary tag within the documentation header for a C# code element is empty.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1606.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1606.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1952,7 +2114,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1607</internalKey>
     <description><![CDATA[<p>The  summary or  content tag within the documentation header for a C# code element is empty.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1607.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1607.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1964,7 +2127,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1608</internalKey>
     <description><![CDATA[<p>The  summary tag within an element's XML header documentation contains the default text generated by Visual Studio during the creation of the element.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1608.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1608.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1976,7 +2140,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1609</internalKey>
     <description><![CDATA[<p>The XML header documentation for a C# property does not contain a  value tag.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1609.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1609.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -1988,7 +2153,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1610</internalKey>
     <description><![CDATA[<p>The XML header documentation for a C# property contains an empty  value tag.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1610.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1610.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2000,7 +2166,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1611</internalKey>
     <description><![CDATA[<p>A C# method, constructor, delegate or indexer element is missing documentation for one or more of its parameters.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1611.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1611.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2012,7 +2179,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1612</internalKey>
     <description><![CDATA[<p>The documentation describing the parameters to a C# method, constructor, delegate or indexer element does not match the actual parameters on the element.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1612.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1612.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2024,7 +2192,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1613</internalKey>
     <description><![CDATA[<p>A  param tag within a C# element's documentation header is missing a name attribute containing the name of the parameter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1613.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1613.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2036,7 +2205,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1614</internalKey>
     <description><![CDATA[<p>A  param tag within a C# element's documentation header is empty.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1614.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1614.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2048,7 +2218,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1615</internalKey>
     <description><![CDATA[<p>A C# element is missing documentation for its return value.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1615.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1615.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2060,7 +2231,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1616</internalKey>
     <description><![CDATA[<p>The  returns tag within a C# element's documentation header is empty.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1616.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1616.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2072,7 +2244,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1617</internalKey>
     <description><![CDATA[<p>A C# code element does not contain a return value, or returns void, but the documentation header for the element contains a  returns tag.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1617.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1617.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2084,7 +2257,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1618</internalKey>
     <description><![CDATA[<p>A generic C# element is missing documentation for one or more of its generic type parameters.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1618.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1618.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2096,7 +2270,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1619</internalKey>
     <description><![CDATA[<p>A generic, partial C# element is missing documentation for one or more of its generic type parameters, and the documentation for the element contains a  summary tag.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1619.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1619.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2108,7 +2283,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1625</internalKey>
     <description><![CDATA[<p>The Xml documentation for a C# element contains two or more identical entries, indicating that the documentation has been copied and pasted. This can sometimes indicate invalid or poorly written documentation.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1625.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1625.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2120,7 +2296,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1626</internalKey>
     <description><![CDATA[<p>The C# code contains a single-line comment which begins with three forward slashes in a row.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1626.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1626.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2132,7 +2309,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1627</internalKey>
     <description><![CDATA[<p>The XML header documentation for a C# code element contains an empty tag.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1627.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1627.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2144,7 +2322,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1628</internalKey>
     <description><![CDATA[<p>A section of the XML header documentation for a C# element does not begin with a capital letter.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1628.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1628.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2156,7 +2335,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1629</internalKey>
     <description><![CDATA[<p>A section of the XML header documentation for a C# element does not end with a period.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1629.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1629.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>INFO</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2168,7 +2348,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1630</internalKey>
     <description><![CDATA[<p>A section of the XML header documentation for a C# element does not contain any whitespace between words.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1630.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1630.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2180,7 +2361,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1631</internalKey>
     <description><![CDATA[<p>A section of the Xml header documentation for a C# element does not contain enough alphabetic characters.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1631.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1631.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2192,7 +2374,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1632</internalKey>
     <description><![CDATA[<p>A section of the Xml header documentation for a C# element is too short.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1632.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1632.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2204,7 +2387,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1642</internalKey>
     <description><![CDATA[<p>The XML documentation header for a C# constructor does not contain the appropriate summary text.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1642.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1642.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2216,7 +2400,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1643</internalKey>
     <description><![CDATA[<p>The XML documentation header for a C# finalizer does not contain the appropriate summary text.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1643.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1643.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>BLOCKER</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2228,7 +2413,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1644</internalKey>
     <description><![CDATA[<p>A section within the XML documentation header for a C# element contains blank lines.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1644.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1644.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2240,7 +2426,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1645</internalKey>
     <description><![CDATA[<p>An included XML documentation file does not exist.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1645.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1645.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2252,7 +2439,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1646</internalKey>
     <description><![CDATA[<p>An included XML documentation link contains an invalid path.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1646.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1646.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2264,7 +2452,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1647</internalKey>
     <description><![CDATA[<p>An include tag within an XML documentation header does not contain valid file and path attribute.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1647.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1647.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2276,7 +2465,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1648</internalKey>
     <description><![CDATA[<p> inheritdoc has been used on an element that doesn't inherit from a base class or implement an interface.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1648.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1648.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2288,7 +2478,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1649</internalKey>
     <description><![CDATA[<p>The file name of a C# code file does not match the first type declared in the file.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1649.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1649.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2300,7 +2491,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1650</internalKey>
     <description><![CDATA[<p>The element documentation for the element contains one or more spelling mistakes or unrecognized words.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1650.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1650.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
@@ -2312,7 +2504,8 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <internalKey>SA1651</internalKey>
     <description><![CDATA[<p>The element documentation contains a  placeholder element.</p>
 <h2>More Details</h2>
-For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1651.md" target="_blank">the rule's help page</a>.]]></description>
+For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1651.md" target="_blank">the rule's help page</a>.
+]]></description>
     <severity>MINOR</severity>
     <cardinality>SINGLE</cardinality>
     <status>READY</status>
