@@ -1995,7 +1995,7 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <key>SA1623</key>
     <name>Property summary documentation should match accessors</name>
     <internalKey>SA1623</internalKey>
-    <description><![CDATA[<p>The documentation text within a C# property’s  summary tag does not match the accessors within the property.</p>
+    <description><![CDATA[<p>The documentation text within a C# propertyâ€™s  summary tag does not match the accessors within the property.</p>
 <h2>More Details</h2>
 For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1623.md" target="_blank">the rule's help page</a>.
 ]]></description>
@@ -2008,7 +2008,7 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <key>SA1624</key>
     <name>Property summary documentation should omit accessor with restricted access</name>
     <internalKey>SA1624</internalKey>
-    <description><![CDATA[<p>The documentation text within a C# property’s  summary tag takes into account all of the accessors within the property, but one of the accessors has limited access.</p>
+    <description><![CDATA[<p>The documentation text within a C# propertyâ€™s  summary tag takes into account all of the accessors within the property, but one of the accessors has limited access.</p>
 <h2>More Details</h2>
 For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1624.md" target="_blank">the rule's help page</a>.
 ]]></description>
@@ -2060,7 +2060,7 @@ For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopA
     <key>SA1603</key>
     <name>Documentation should contain valid XML</name>
     <internalKey>SA1603</internalKey>
-    <description><![CDATA[<p>The XML within a C# element’s document header is badly formed.</p>
+    <description><![CDATA[<p>The XML within a C# elementâ€™s document header is badly formed.</p>
 <h2>More Details</h2>
 For more information visit <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1603.md" target="_blank">the rule's help page</a>.
 ]]></description>
