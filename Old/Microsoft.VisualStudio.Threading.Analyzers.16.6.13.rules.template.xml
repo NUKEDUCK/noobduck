@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <rule>
+    <key>VSTHRD001</key>
+    <name>Avoid legacy thread switching APIs</name>
+    <internalKey>VSTHRD001</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD001.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD002</key>
+    <name>Avoid problematic synchronous waits</name>
+    <internalKey>VSTHRD002</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD002.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD003</key>
+    <name>Avoid awaiting foreign Tasks</name>
+    <internalKey>VSTHRD003</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD003.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD004</key>
+    <name>Await SwitchToMainThreadAsync</name>
+    <internalKey>VSTHRD004</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD004.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MAJOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD010</key>
+    <name>Invoke single-threaded types on Main thread</name>
+    <internalKey>VSTHRD010</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD010.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD011</key>
+    <name>Use AsyncLazy&lt;T&gt;</name>
+    <internalKey>VSTHRD011</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD011.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MAJOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD012</key>
+    <name>Provide JoinableTaskFactory where allowed</name>
+    <internalKey>VSTHRD012</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD012.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD100</key>
+    <name>Avoid async void methods</name>
+    <internalKey>VSTHRD100</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD100.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD101</key>
+    <name>Avoid unsupported async delegates</name>
+    <internalKey>VSTHRD101</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD101.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD102</key>
+    <name>Implement internal logic asynchronously</name>
+    <internalKey>VSTHRD102</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD102.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>INFO</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD103</key>
+    <name>Call async methods when in an async method</name>
+    <internalKey>VSTHRD103</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD103.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD104</key>
+    <name>Offer async methods</name>
+    <internalKey>VSTHRD104</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD104.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>INFO</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD105</key>
+    <name>Avoid method overloads that assume TaskScheduler.Current</name>
+    <internalKey>VSTHRD105</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD105.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD106</key>
+    <name>Use InvokeAsync to raise async events</name>
+    <internalKey>VSTHRD106</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD106.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD107</key>
+    <name>Await Task within using expression</name>
+    <internalKey>VSTHRD107</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD107.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MAJOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD108</key>
+    <name>Assert thread affinity unconditionally</name>
+    <internalKey>VSTHRD108</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD108.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD109</key>
+    <name>Switch instead of assert in async methods</name>
+    <internalKey>VSTHRD109</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD109.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MAJOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD110</key>
+    <name>Observe result of async calls</name>
+    <internalKey>VSTHRD110</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD110.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD111</key>
+    <name>Use ConfigureAwait(bool)</name>
+    <internalKey>VSTHRD111</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD111.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>INFO</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+  <rule>
+    <key>VSTHRD200</key>
+    <name>Use "Async" suffix for async methods</name>
+    <internalKey>VSTHRD200</internalKey>
+    <description><![CDATA[<h2>More Details</h2>
+For more information visit <a href="https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/VSTHRD200.md" target="_blank">the rule's help page</a>.
+]]></description>
+    <severity>MINOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+</rules>

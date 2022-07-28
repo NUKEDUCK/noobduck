@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <rule>
+    <key>CyrillicNaming</key>
+    <name>Символы кириллицы в наименовании</name>
+    <internalKey>CyrillicNaming</internalKey>
+    <description><![CDATA[No description was provided.]]></description>
+    <severity>MAJOR</severity>
+    <cardinality>SINGLE</cardinality>
+    <status>READY</status>
+    <type>CODE_SMELL</type>
+  </rule>
+</rules>
