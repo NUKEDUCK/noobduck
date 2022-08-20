@@ -1,0 +1,374 @@
+2022/08/20 13:23:55 Starting cygwin install, version 2.919
+2022/08/20 13:23:55 User has backup/restore rights
+2022/08/20 13:23:55 User has symlink creation right
+2022/08/20 13:23:55 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2022/08/20 13:23:55 Current Directory: C:\Users\Artem Chapligin\Downloads
+2022/08/20 13:24:03 source: download
+2022/08/20 13:24:12 Selected local directory: C:\Users\Artem Chapligin\Downloads\cygwin
+2022/08/20 13:24:12 mbox : Directory C:\Users\Artem Chapligin\Downloads\cygwin does not exist, would you like me to create it?
+2022/08/20 13:24:16 net: Preconfig
+2022/08/20 13:24:47 site: https://cygwin.mirror.constant.com/
+2022/08/20 13:24:51 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2022/08/20 13:24:52 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2022/08/20 13:24:59 solving: 37 tasks, update: yes, use test packages: no
+2022/08/20 13:26:52 site: https://mirrors.aliyun.com/cygwin/
+2022/08/20 13:26:55 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2022/08/20 13:27:27 solving: 0 tasks, update: no, use test packages: no
+2022/08/20 13:27:27 Augmented Transaction List:
+2022/08/20 13:27:27    0 install base-cygwin     3.8-1          
+2022/08/20 13:27:27    1 install cygwin          3.3.5-1        
+2022/08/20 13:27:27    2 install rebase          4.6.1-1        
+2022/08/20 13:27:27    3 install terminfo        6.1-1.20190727 
+2022/08/20 13:27:27    4 install tzdata          2022b-1        
+2022/08/20 13:27:27    5 install libpopt-common  1.18-1         
+2022/08/20 13:27:27    6 install libffi6         3.2.1-2        
+2022/08/20 13:27:27    7 install libtasn1_6      4.14-1         
+2022/08/20 13:27:27    8 install liblzma5        5.2.6-1        
+2022/08/20 13:27:27    9 install libbz2_1        1.0.8-1        
+2022/08/20 13:27:27   10 install libgmp10        6.2.1-2        
+2022/08/20 13:27:27   11 install libargp         20110921-3     
+2022/08/20 13:27:27   12 install libpcre1        8.45-1         
+2022/08/20 13:27:27   13 install libpcre2_8_0    10.40-1        
+2022/08/20 13:27:27   14 install libgcc1         11.3.0-1       
+2022/08/20 13:27:27   15 install libpipeline1    1.5.3-1        
+2022/08/20 13:27:27   16 install liblz4_1        1.7.5-1        
+2022/08/20 13:27:27   17 install zlib0           1.2.12-1       
+2022/08/20 13:27:27   18 install libiconv2       1.17-1         
+2022/08/20 13:27:27   19 install run             1.3.4-2        
+2022/08/20 13:27:27   20 install mintty          3.6.1-1        
+2022/08/20 13:27:27   21 install login           1.13-1         
+2022/08/20 13:27:27   22 install hostname        3.13-1         
+2022/08/20 13:27:27   23 install libsigsegv2     2.10-2         
+2022/08/20 13:27:27   24 install editrights      1.03-1         
+2022/08/20 13:27:27   25 install dash            0.5.11.5-1     
+2022/08/20 13:27:27   26 install which           2.20-2         
+2022/08/20 13:27:27   27 install ipc-utils       1.0-2          
+2022/08/20 13:27:27   28 install terminfo-extra  6.1-1.20190727 
+2022/08/20 13:27:27   29 install getent          2.18.90-4      
+2022/08/20 13:27:27   30 install libmpfr6        4.1.0-2        
+2022/08/20 13:27:27   31 install libstdc++6      11.3.0-1       
+2022/08/20 13:27:27   32 install file            5.41-2         
+2022/08/20 13:27:27   33 install libintl8        0.21-1         
+2022/08/20 13:27:27   34 install _autorebase     001091-1       
+2022/08/20 13:27:27   35 install libncursesw10   6.1-1.20190727 
+2022/08/20 13:27:27   36 install libp11-kit0     0.23.20-1      
+2022/08/20 13:27:27   37 install libattr1        2.4.48-2       
+2022/08/20 13:27:27   38 install libpopt0        1.18-1         
+2022/08/20 13:27:27   39 install libuuid1        2.33.1-2       
+2022/08/20 13:27:27   40 install libsmartcols1   2.33.1-2       
+2022/08/20 13:27:27   41 install sed             4.8-1          
+2022/08/20 13:27:27   42 install libgdbm6        1.18.1-1       
+2022/08/20 13:27:27   43 install diffutils       3.8-1          
+2022/08/20 13:27:27   44 install alternatives    1.3.30c-10     
+2022/08/20 13:27:27   45 install less            590-1          
+2022/08/20 13:27:27   46 install vim-minimal     8.2.4372-1     
+2022/08/20 13:27:27   47 install ncurses         6.1-1.20190727 
+2022/08/20 13:27:27   48 install libreadline7    8.1-2          
+2022/08/20 13:27:27   49 install info            6.8-2          
+2022/08/20 13:27:27   50 install p11-kit-trust   0.23.20-1      
+2022/08/20 13:27:27   51 install p11-kit         0.23.20-1      
+2022/08/20 13:27:27   52 install cygutils        1.4.17-1       
+2022/08/20 13:27:27   53 install libblkid1       2.33.1-2       
+2022/08/20 13:27:27   54 install gawk            5.1.1-1        
+2022/08/20 13:27:27   55 install bash            4.4.12-3       
+2022/08/20 13:27:27   56 install libfdisk1       2.33.1-2       
+2022/08/20 13:27:27   57 install tzcode          2022b-1        
+2022/08/20 13:27:27   58 install util-linux      2.33.1-2       
+2022/08/20 13:27:27   59 install coreutils       9.0-1          
+2022/08/20 13:27:27   60 install ca-certificates 2022.2.54-1    
+2022/08/20 13:27:27   61 install groff           1.22.4-1       
+2022/08/20 13:27:27   62 install zstd            1.5.2-1        
+2022/08/20 13:27:27   63 install xz              5.2.6-1        
+2022/08/20 13:27:27   64 install bzip2           1.0.8-1        
+2022/08/20 13:27:27   65 install gzip            1.12-1         
+2022/08/20 13:27:27   66 install grep            3.7-2          
+2022/08/20 13:27:27   67 install findutils       4.9.0-1        
+2022/08/20 13:27:27   68 install crypto-policies 20190218-1     
+2022/08/20 13:27:27   69 install tar             1.34-1         
+2022/08/20 13:27:27   70 install man-db          2.10.2-1       
+2022/08/20 13:27:27   71 install base-files      4.3-3          
+2022/08/20 13:27:27   72 install libssl1.1       1.1.1q-1       
+2022/08/20 13:27:27   73 install openssl         1.1.1q-1       
+2022/08/20 13:27:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2022/08/20 13:27:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.3.5-1.tar.xz
+2022/08/20 13:27:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.1-1.tar.xz
+2022/08/20 13:27:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.1-1.20190727.tar.xz
+2022/08/20 13:27:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2022b-1.tar.xz
+2022/08/20 13:27:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.18-1.tar.xz
+2022/08/20 13:27:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2022/08/20 13:27:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2022/08/20 13:27:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.6-1.tar.zst
+2022/08/20 13:27:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2022/08/20 13:27:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.1-2.tar.zst
+2022/08/20 13:27:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2022/08/20 13:27:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst
+2022/08/20 13:27:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.40-1.tar.zst
+2022/08/20 13:27:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-11.3.0-1.tar.zst
+2022/08/20 13:27:38 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.3-1.tar.xz
+2022/08/20 13:27:38 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.7.5-1.tar.xz
+2022/08/20 13:27:38 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.2.12-1.tar.zst
+2022/08/20 13:27:38 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+2022/08/20 13:27:38 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2022/08/20 13:27:38 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.1-1.tar.xz
+2022/08/20 13:27:38 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+2022/08/20 13:27:39 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2022/08/20 13:27:39 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2022/08/20 13:27:39 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2022/08/20 13:27:39 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.11.5-1.tar.xz
+2022/08/20 13:27:40 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2022/08/20 13:27:40 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2022/08/20 13:27:40 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.1-1.20190727.tar.xz
+2022/08/20 13:27:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2022/08/20 13:27:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.1.0-2.tar.zst
+2022/08/20 13:27:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-11.3.0-1.tar.zst
+2022/08/20 13:27:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/file/file-5.41-2.tar.xz
+2022/08/20 13:27:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.21-1.tar.xz
+2022/08/20 13:27:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2022/08/20 13:27:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.1-1.20190727.tar.xz
+2022/08/20 13:27:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2022/08/20 13:27:42 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz
+2022/08/20 13:27:42 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.18-1.tar.xz
+2022/08/20 13:27:42 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz
+2022/08/20 13:27:42 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz
+2022/08/20 13:27:42 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sed/sed-4.8-1.tar.xz
+2022/08/20 13:27:42 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2022/08/20 13:27:42 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.8-1.tar.xz
+2022/08/20 13:27:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2022/08/20 13:27:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/less/less-590-1.tar.xz
+2022/08/20 13:27:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.4372-1.tar.xz
+2022/08/20 13:27:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.1-1.20190727.tar.xz
+2022/08/20 13:27:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.1-2.tar.xz
+2022/08/20 13:27:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/texinfo/info/info-6.8-2.tar.xz
+2022/08/20 13:27:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2022/08/20 13:27:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2022/08/20 13:27:44 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+2022/08/20 13:27:44 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz
+2022/08/20 13:27:44 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.1.1-1.tar.xz
+2022/08/20 13:27:44 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2022/08/20 13:27:44 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz
+2022/08/20 13:27:44 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2022b-1.tar.xz
+2022/08/20 13:27:44 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz
+2022/08/20 13:27:44 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2022/08/20 13:27:44 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2022.2.54-1.tar.zst
+2022/08/20 13:27:45 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2022/08/20 13:27:45 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.2-1.tar.zst
+2022/08/20 13:27:45 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/xz/xz-5.2.6-1.tar.zst
+2022/08/20 13:27:45 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2022/08/20 13:27:45 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.12-1.tar.xz
+2022/08/20 13:27:45 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/grep/grep-3.7-2.tar.xz
+2022/08/20 13:27:46 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.9.0-1.tar.xz
+2022/08/20 13:27:46 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2022/08/20 13:27:46 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tar/tar-1.34-1.tar.zst
+2022/08/20 13:27:46 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.10.2-1.tar.zst
+2022/08/20 13:27:46 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2022/08/20 13:27:46 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1q-1.tar.zst
+2022/08/20 13:27:46 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1q-1.tar.zst
+2022/08/20 13:27:49 note: Download Complete
+2022/08/20 13:27:49 Ending cygwin install
+2022/08/20 13:27:55 Starting cygwin install, version 2.919
+2022/08/20 13:27:55 User has backup/restore rights
+2022/08/20 13:27:55 User has symlink creation right
+2022/08/20 13:27:55 Current Directory: C:\Users\Artem Chapligin\Downloads\cygwin
+2022/08/20 13:27:59 source: download
+2022/08/20 13:28:01 Selected local directory: C:\Users\Artem Chapligin\Downloads\cygwin
+2022/08/20 13:28:02 net: Preconfig
+2022/08/20 13:28:06 site: https://mirrors.aliyun.com/cygwin/
+2022/08/20 13:28:09 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2022/08/20 13:28:16 solving: 37 tasks, update: yes, use test packages: no
+2022/08/20 14:15:14 solving: 83 tasks, update: no, use test packages: no
+2022/08/20 14:15:14 Augmented Transaction List:
+2022/08/20 14:15:14    0 install ansible-src              2.8.2-1        
+2022/08/20 14:15:14    1 install ansible-doc              2.8.2-1        
+2022/08/20 14:15:14    2 install ansible-doc-src          2.8.2-1        
+2022/08/20 14:15:14    3 install base-cygwin              3.8-1          
+2022/08/20 14:15:14    4 install base-files-src           4.3-3          
+2022/08/20 14:15:14    5 install bash-src                 4.4.12-3       
+2022/08/20 14:15:14    6 install cygwin                   3.3.5-1        
+2022/08/20 14:15:14    7 install grep-src                 3.7-2          
+2022/08/20 14:15:14    8 install hostname-src             3.13-1         
+2022/08/20 14:15:14    9 install libpopt-common           1.18-1         
+2022/08/20 14:15:14   10 install rebase                   4.6.1-1        
+2022/08/20 14:15:14   11 install tar-src                  1.34-1         
+2022/08/20 14:15:14   12 install terminfo                 6.1-1.20190727 
+2022/08/20 14:15:14   13 install tzdata                   2022b-1        
+2022/08/20 14:15:14   14 install cygwin-devel             3.3.5-1        
+2022/08/20 14:15:14   15 install w32api-headers           10.0.0-1       
+2022/08/20 14:15:14   16 install windows-default-manifest 6.4-1          
+2022/08/20 14:15:14   17 install libzstd1                 1.5.2-1        
+2022/08/20 14:15:14   18 install libatomic1               11.3.0-1       
+2022/08/20 14:15:14   19 install cygrunsrv                1.62-1         
+2022/08/20 14:15:14   20 install libyaml0_2               0.2.5-1        
+2022/08/20 14:15:14   21 install libsqlite3_0             3.34.0-1       
+2022/08/20 14:15:14   22 install libexpat1                2.4.1-1        
+2022/08/20 14:15:14   23 install libcrypt2                4.4.20-1       
+2022/08/20 14:15:14   24 install sshpass                  1.06-1         
+2022/08/20 14:15:14   25 install zlib0                    1.2.12-1       
+2022/08/20 14:15:14   26 install which                    2.20-2         
+2022/08/20 14:15:14   27 install run                      1.3.4-2        
+2022/08/20 14:15:14   28 install mintty                   3.6.1-1        
+2022/08/20 14:15:14   29 install login                    1.13-1         
+2022/08/20 14:15:14   30 install libtasn1_6               4.14-1         
+2022/08/20 14:15:14   31 install libsigsegv2              2.10-2         
+2022/08/20 14:15:14   32 install libpipeline1             1.5.3-1        
+2022/08/20 14:15:14   33 install libpcre2_8_0             10.40-1        
+2022/08/20 14:15:14   34 install libpcre1                 8.45-1         
+2022/08/20 14:15:14   35 install liblzma5                 5.2.6-1        
+2022/08/20 14:15:14   36 install liblz4_1                 1.7.5-1        
+2022/08/20 14:15:14   37 install libiconv2                1.17-1         
+2022/08/20 14:15:14   38 install libgmp10                 6.2.1-2        
+2022/08/20 14:15:14   39 install libgcc1                  11.3.0-1       
+2022/08/20 14:15:14   40 install libffi6                  3.2.1-2        
+2022/08/20 14:15:14   41 install libbz2_1                 1.0.8-1        
+2022/08/20 14:15:14   42 install libargp                  20110921-3     
+2022/08/20 14:15:14   43 install ipc-utils                1.0-2          
+2022/08/20 14:15:14   44 install hostname                 3.13-1         
+2022/08/20 14:15:14   45 install editrights               1.03-1         
+2022/08/20 14:15:14   46 install dash                     0.5.11.5-1     
+2022/08/20 14:15:14   47 install terminfo-extra           6.1-1.20190727 
+2022/08/20 14:15:14   48 install w32api-runtime           10.0.0-1       
+2022/08/20 14:15:14   49 install libintl8                 0.21-1         
+2022/08/20 14:15:14   50 install libisl23                 0.25-1         
+2022/08/20 14:15:14   51 install libquadmath0             11.3.0-1       
+2022/08/20 14:15:14   52 install libgomp1                 11.3.0-1       
+2022/08/20 14:15:14   53 install libcom_err2              1.44.5-1       
+2022/08/20 14:15:14   54 install libstdc++6               11.3.0-1       
+2022/08/20 14:15:14   55 install libmpfr6                 4.1.0-2        
+2022/08/20 14:15:14   56 install file                     5.41-2         
+2022/08/20 14:15:14   57 install getent                   2.18.90-4      
+2022/08/20 14:15:14   58 install _autorebase              001091-1       
+2022/08/20 14:15:14   59 install libncursesw10            6.1-1.20190727 
+2022/08/20 14:15:14   60 install libkrb5support0          1.15.2-2       
+2022/08/20 14:15:14   61 install binutils                 2.38-1         
+2022/08/20 14:15:14   62 install sed                      4.8-1          
+2022/08/20 14:15:14   63 install libuuid1                 2.33.1-2       
+2022/08/20 14:15:14   64 install libsmartcols1            2.33.1-2       
+2022/08/20 14:15:14   65 install libpopt0                 1.18-1         
+2022/08/20 14:15:14   66 install libp11-kit0              0.23.20-1      
+2022/08/20 14:15:14   67 install libgdbm6                 1.18.1-1       
+2022/08/20 14:15:14   68 install libattr1                 2.4.48-2       
+2022/08/20 14:15:14   69 install diffutils                3.8-1          
+2022/08/20 14:15:14   70 install alternatives             1.3.30c-10     
+2022/08/20 14:15:14   71 install libmpc3                  1.2.1-2        
+2022/08/20 14:15:14   72 install libedit0                 20130712-1     
+2022/08/20 14:15:14   73 install vim-minimal              8.2.4372-1     
+2022/08/20 14:15:14   74 install ncurses                  6.1-1.20190727 
+2022/08/20 14:15:14   75 install libreadline7             8.1-2          
+2022/08/20 14:15:14   76 install less                     590-1          
+2022/08/20 14:15:14   77 install info                     6.8-2          
+2022/08/20 14:15:14   78 install libk5crypto3             1.15.2-2       
+2022/08/20 14:15:14   79 install libblkid1                2.33.1-2       
+2022/08/20 14:15:14   80 install cygutils                 1.4.17-1       
+2022/08/20 14:15:14   81 install p11-kit-trust            0.23.20-1      
+2022/08/20 14:15:14   82 install p11-kit                  0.23.20-1      
+2022/08/20 14:15:14   83 install libgdbm_compat4          1.18.1-1       
+2022/08/20 14:15:14   84 install gawk                     5.1.1-1        
+2022/08/20 14:15:14   85 install bash                     4.4.12-3       
+2022/08/20 14:15:14   86 install libkrb5_3                1.15.2-2       
+2022/08/20 14:15:14   87 install libfdisk1                2.33.1-2       
+2022/08/20 14:15:14   88 install tzcode                   2022b-1        
+2022/08/20 14:15:14   89 install libgssapi_krb5_2         1.15.2-2       
+2022/08/20 14:15:14   90 install util-linux               2.33.1-2       
+2022/08/20 14:15:14   91 install coreutils                9.0-1          
+2022/08/20 14:15:14   92 install gcc-core                 11.3.0-1       
+2022/08/20 14:15:14   93 install zstd                     1.5.2-1        
+2022/08/20 14:15:14   94 install xz                       5.2.6-1        
+2022/08/20 14:15:14   95 install gzip                     1.12-1         
+2022/08/20 14:15:14   96 install groff                    1.22.4-1       
+2022/08/20 14:15:14   97 install grep                     3.7-2          
+2022/08/20 14:15:14   98 install findutils                4.9.0-1        
+2022/08/20 14:15:14   99 install crypto-policies          20190218-1     
+2022/08/20 14:15:14  100 install ca-certificates          2022.2.54-1    
+2022/08/20 14:15:14  101 install bzip2                    1.0.8-1        
+2022/08/20 14:15:14  102 install man-db                   2.10.2-1       
+2022/08/20 14:15:14  103 install csih                     0.9.11-1       
+2022/08/20 14:15:14  104 install base-files               4.3-3          
+2022/08/20 14:15:14  105 install libssl1.1                1.1.1q-1       
+2022/08/20 14:15:14  106 install tar                      1.34-1         
+2022/08/20 14:15:14  107 install libfido2                 1.11.0-1       
+2022/08/20 14:15:14  108 install python37                 3.7.12-1       
+2022/08/20 14:15:14  109 install openssl                  1.1.1q-1       
+2022/08/20 14:15:14  110 install openssh                  9.0p1-1        
+2022/08/20 14:15:14  111 install python37-setuptools      59.5.0-1       
+2022/08/20 14:15:14  112 install python37-pip             21.3.1-3       
+2022/08/20 14:15:14  113 install python37-markupsafe      2.0.1-1        
+2022/08/20 14:15:14  114 install python37-ply             3.11-3         
+2022/08/20 14:15:14  115 install python37-yaml            6.0-1          
+2022/08/20 14:15:14  116 install python37-jmespath        0.10.0-2       
+2022/08/20 14:15:14  117 install python37-certifi         2021.10.8-1    
+2022/08/20 14:15:14  118 install python37-idna            3.3-1          
+2022/08/20 14:15:14  119 install python37-chardet         4.0.0-2        
+2022/08/20 14:15:14  120 install python37-ntlm-auth       1.5.0-2        
+2022/08/20 14:15:14  121 install python37-xmltodict       0.12.0-3       
+2022/08/20 14:15:14  122 install python37-six             1.16.0-1       
+2022/08/20 14:15:14  123 install python37-passlib         1.7.1-1        
+2022/08/20 14:15:14  124 install python37-jinja2          3.0.3-1        
+2022/08/20 14:15:14  125 install python37-pycparser       2.20-2         
+2022/08/20 14:15:14  126 install python37-urllib3         1.26.7-1       
+2022/08/20 14:15:14  127 install python37-cffi            1.15.0-1       
+2022/08/20 14:15:14  128 install python37-requests        2.27.1-1       
+2022/08/20 14:15:14  129 install python37-cryptography    3.3.2-1        
+2022/08/20 14:15:14  130 install python37-requests_ntlm   1.1.0-1        
+2022/08/20 14:15:14  131 install python37-pypsrp          0.3.1-1        
+2022/08/20 14:15:14  132 install python37-winrm           0.3.0-1        
+2022/08/20 14:15:14  133 install ansible                  2.8.2-1        
+2022/08/20 14:15:27 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1-src.tar.xz
+2022/08/20 14:15:29 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-doc/ansible-doc-2.8.2-1.tar.xz
+2022/08/20 14:15:30 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3-src.tar.zst
+2022/08/20 14:15:31 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3-src.tar.xz
+2022/08/20 14:15:32 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/grep/grep-3.7-2-src.tar.xz
+2022/08/20 14:15:33 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1-src.tar.bz2
+2022/08/20 14:15:34 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tar/tar-1.34-1-src.tar.zst
+2022/08/20 14:15:34 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.3.5-1.tar.xz
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-10.0.0-1.tar.xz
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.2-1.tar.zst
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-11.3.0-1.tar.zst
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/yaml/libyaml0_2/libyaml0_2-0.2.5-1.tar.xz
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.34.0-1.tar.xz
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/expat/libexpat1/libexpat1-2.4.1-1.tar.xz
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sshpass/sshpass-1.06-1.tar.xz
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-10.0.0-1.tar.xz
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/isl/libisl23/libisl23-0.25-1.tar.zst
+2022/08/20 14:15:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-11.3.0-1.tar.zst
+2022/08/20 14:15:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-11.3.0-1.tar.zst
+2022/08/20 14:15:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+2022/08/20 14:15:38 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2022/08/20 14:15:39 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/binutils/binutils-2.38-1.tar.zst
+2022/08/20 14:15:39 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.2.1-2.tar.zst
+2022/08/20 14:15:39 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+2022/08/20 14:15:40 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2022/08/20 14:15:40 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz
+2022/08/20 14:15:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2022/08/20 14:15:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2022/08/20 14:15:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-11.3.0-1.tar.zst
+2022/08/20 14:15:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/csih/csih-0.9.11-1.tar.xz
+2022/08/20 14:15:44 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libfido2/libfido2-1.11.0-1.tar.xz
+2022/08/20 14:15:45 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python37/python37-3.7.12-1.tar.xz
+2022/08/20 14:15:45 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssh/openssh-9.0p1-1.tar.xz
+2022/08/20 14:15:46 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-setuptools/python37-setuptools/python37-setuptools-59.5.0-1.tar.xz
+2022/08/20 14:15:47 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pip/python37-pip/python37-pip-21.3.1-3.tar.xz
+2022/08/20 14:15:47 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-markupsafe/python37-markupsafe/python37-markupsafe-2.0.1-1.tar.xz
+2022/08/20 14:15:47 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-ply/python37-ply/python37-ply-3.11-3.tar.xz
+2022/08/20 14:15:48 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-yaml/python37-yaml/python37-yaml-6.0-1.tar.xz
+2022/08/20 14:15:48 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-jmespath/python37-jmespath/python37-jmespath-0.10.0-2.tar.xz
+2022/08/20 14:15:48 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-certifi/python37-certifi/python37-certifi-2021.10.8-1.tar.xz
+2022/08/20 14:15:48 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-idna/python37-idna/python37-idna-3.3-1.tar.xz
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-chardet/python37-chardet/python37-chardet-4.0.0-2.tar.xz
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-ntlm-auth/python37-ntlm-auth/python37-ntlm-auth-1.5.0-2.tar.xz
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-xmltodict/python37-xmltodict/python37-xmltodict-0.12.0-3.tar.xz
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-six/python37-six/python37-six-1.16.0-1.tar.xz
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-passlib/python37-passlib/python37-passlib-1.7.1-1.tar.xz
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-jinja2/python37-jinja2/python37-jinja2-3.0.3-1.tar.xz
+2022/08/20 14:15:50 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pycparser/python37-pycparser/python37-pycparser-2.20-2.tar.xz
+2022/08/20 14:15:50 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-urllib3/python37-urllib3/python37-urllib3-1.26.7-1.tar.xz
+2022/08/20 14:15:50 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-cffi/python37-cffi/python37-cffi-1.15.0-1.tar.xz
+2022/08/20 14:15:50 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-requests/python37-requests/python37-requests-2.27.1-1.tar.xz
+2022/08/20 14:15:51 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-cryptography/python37-cryptography/python37-cryptography-3.3.2-1.tar.xz
+2022/08/20 14:15:51 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-requests_ntlm/python37-requests_ntlm/python37-requests_ntlm-1.1.0-1.tar.xz
+2022/08/20 14:15:51 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pypsrp/python37-pypsrp/python37-pypsrp-0.3.1-1.tar.xz
+2022/08/20 14:15:51 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-winrm/python37-winrm/python37-winrm-0.3.0-1.tar.xz
+2022/08/20 14:15:54 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1.tar.xz
+2022/08/20 14:15:56 note: Download Complete
+2022/08/20 14:15:56 Ending cygwin install

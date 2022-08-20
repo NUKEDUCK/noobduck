@@ -1,0 +1,1306 @@
+2022/08/20 13:27:55 Starting cygwin install, version 2.919
+2022/08/20 13:27:55 User has backup/restore rights
+2022/08/20 13:27:55 User has symlink creation right
+2022/08/20 13:27:55 Current Directory: C:\Users\Artem Chapligin\Downloads\cygwin
+Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2022/08/20 13:27:59 source: download
+2022/08/20 13:28:01 Selected local directory: C:\Users\Artem Chapligin\Downloads\cygwin
+2022/08/20 13:28:02 net: Preconfig
+Loaded cached mirror list
+User-Agent: default is "Cygwin-Setup/2.919 (Windows NT 10.0.19044;Win64;0419;SymLinkPriv+UnprivilegedSymLink)"
+Request for URL https://cygwin.com/mirrors.lst satisfied from cache
+Fetched URL: https://cygwin.com/mirrors.lst
+2022/08/20 13:28:06 site: https://mirrors.aliyun.com/cygwin/
+Request for URL https://mirrors.aliyun.com/cygwin/x86_64/setup.zst.sig satisfied from cache
+Fetched URL: https://mirrors.aliyun.com/cygwin/x86_64/setup.zst.sig
+Request for URL https://mirrors.aliyun.com/cygwin/x86_64/setup.zst satisfied from cache
+Fetched URL: https://mirrors.aliyun.com/cygwin/x86_64/setup.zst
+signature: sig_type 0, pk_alg 1, hash_alg 8
+signature: tried key cygwin, returned 0x00000000 Success
+.ini setup_version is 2.919, our setup_version is 2.919
+2022/08/20 13:28:09 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2022/08/20 13:28:16 solving: 37 tasks, update: yes, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0
+libsolv: number of solvables: 56018, memory used: 3063 K
+libsolv: number of ids: 28618 + 56017
+libsolv: string memory used: 111 K array + 490 K data,  rel memory used: 656 K array
+libsolv: string hash memory: 256 K, rel hash memory : 512 K
+libsolv: provide ids: 12175
+libsolv: provide space needed: 41524 + 112034
+libsolv: shrunk whatprovidesdata from 41524 to 41500
+libsolv: shrunk whatprovidesauxdata from 41524 to 29346
+libsolv: whatprovides memory used: 334 K id array, 599 K data
+libsolv: whatprovidesaux memory used: 111 K id array, 114 K data
+libsolv: WARNING: pool_addfileprovides was not called, this may result in slow operation
+libsolv: lazywhatprovidesq size: 0 entries
+libsolv: createwhatprovides took 0 ms
+libsolv: obsoletes data: 1 entries
+libsolv: added 907 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 220 of 27846 installable solvables considered for solving
+libsolv: pruned rules from 908 to 908
+libsolv:   binary: 339
+libsolv:   normal: 568, 3654 literals
+libsolv: pkg rule memory used: 21 K
+libsolv: pkg rule creation took 0 ms
+libsolv: choice rule creation took 8 ms
+libsolv: 907 pkg rules, 2 * 2 update rules, 37 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
+libsolv: overall rule memory used: 22 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 1 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 9 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   install   alternatives-1.3.30c-10.any
+libsolv: 
+libsolv:   install   crypto-policies-20190218-1.any
+libsolv: 
+libsolv:   install   ipc-utils-1.0-2.any
+libsolv: 
+libsolv:   install   which-2.20-2.any
+libsolv: 
+libsolv:   install   _autorebase-001091-1.any
+libsolv: 
+libsolv:   install   base-cygwin-3.8-1.any
+libsolv: 
+libsolv:   install   base-files-4.3-3.any
+libsolv: 
+libsolv:   install   bash-4.4.12-3.any
+libsolv: 
+libsolv:   install   coreutils-9.0-1.any
+libsolv: 
+libsolv:   install   cygutils-1.4.17-1.any
+libsolv: 
+libsolv:   install   cygwin-3.3.5-1.any
+libsolv: 
+libsolv:   install   dash-0.5.11.5-1.any
+libsolv: 
+libsolv:   install   diffutils-3.8-1.any
+libsolv: 
+libsolv:   install   editrights-1.03-1.any
+libsolv: 
+libsolv:   install   file-5.41-2.any
+libsolv: 
+libsolv:   install   findutils-4.9.0-1.any
+libsolv: 
+libsolv:   install   gawk-5.1.1-1.any
+libsolv: 
+libsolv:   install   libsigsegv2-2.10-2.any
+libsolv: 
+libsolv:   install   getent-2.18.90-4.any
+libsolv: 
+libsolv:   install   grep-3.7-2.any
+libsolv: 
+libsolv:   install   gzip-1.12-1.any
+libsolv: 
+libsolv:   install   hostname-3.13-1.any
+libsolv: 
+libsolv:   install   info-6.8-2.any
+libsolv: 
+libsolv:   install   libreadline7-8.1-2.any
+libsolv: 
+libsolv:   install   libssl1.1-1.1.1q-1.any
+libsolv: 
+libsolv:   install   login-1.13-1.any
+libsolv: 
+libsolv:   install   man-db-2.10.2-1.any
+libsolv: 
+libsolv:   install   libgdbm6-1.18.1-1.any
+libsolv: 
+libsolv:   install   mintty-3.6.1-1.any
+libsolv: 
+libsolv:   install   ncurses-6.1-1.20190727.any
+libsolv: 
+libsolv:   install   openssl-1.1.1q-1.any
+libsolv: 
+libsolv:   install   rebase-4.6.1-1.any
+libsolv: 
+libsolv:   install   run-1.3.4-2.any
+libsolv: 
+libsolv:   install   sed-4.8-1.any
+libsolv: 
+libsolv:   install   tar-1.34-1.any
+libsolv: 
+libsolv:   install   terminfo-6.1-1.20190727.any
+libsolv: 
+libsolv:   install   tzdata-2022b-1.any
+libsolv: 
+libsolv:   install   util-linux-2.33.1-2.any
+libsolv: 
+libsolv:   install   vim-minimal-8.2.4372-1.any
+libsolv: 
+libsolv:   install   libiconv2-1.17-1.any
+libsolv: 
+libsolv:   install   libncursesw10-6.1-1.20190727.any
+libsolv: 
+libsolv:   install   libblkid1-2.33.1-2.any
+libsolv: 
+libsolv:   install   libfdisk1-2.33.1-2.any
+libsolv: 
+libsolv:   install   libintl8-0.21-1.any
+libsolv: 
+libsolv:   install   libsmartcols1-2.33.1-2.any
+libsolv: 
+libsolv:   install   libuuid1-2.33.1-2.any
+libsolv: 
+libsolv:   install   zlib0-1.2.12-1.any
+libsolv: 
+libsolv:   install   terminfo-extra-6.1-1.20190727.any
+libsolv: 
+libsolv:   install   bzip2-1.0.8-1.any
+libsolv: 
+libsolv:   install   xz-5.2.6-1.any
+libsolv: 
+libsolv:   install   zstd-1.5.2-1.any
+libsolv: 
+libsolv:   install   liblz4_1-1.7.5-1.any
+libsolv: 
+libsolv:   install   groff-1.22.4-1.any
+libsolv: 
+libsolv:   install   less-590-1.any
+libsolv: 
+libsolv:   install   libpipeline1-1.5.3-1.any
+libsolv: 
+libsolv:   install   libgcc1-11.3.0-1.any
+libsolv: 
+libsolv:   install   ca-certificates-2022.2.54-1.any
+libsolv: 
+libsolv:   install   libpcre2_8_0-10.40-1.any
+libsolv: 
+libsolv:   install   libstdc++6-11.3.0-1.any
+libsolv: 
+libsolv:   install   libpcre1-8.45-1.any
+libsolv: 
+libsolv:   install   libargp-20110921-3.any
+libsolv: 
+libsolv:   install   libgmp10-6.2.1-2.any
+libsolv: 
+libsolv:   install   libmpfr6-4.1.0-2.any
+libsolv: 
+libsolv:   install   libbz2_1-1.0.8-1.any
+libsolv: 
+libsolv:   install   liblzma5-5.2.6-1.any
+libsolv: 
+libsolv:   install   libpopt0-1.18-1.any
+libsolv: 
+libsolv:   install   libattr1-2.4.48-2.any
+libsolv: 
+libsolv:   install   tzcode-2022b-1.any
+libsolv: 
+libsolv:   install   p11-kit-0.23.20-1.any
+libsolv: 
+libsolv:   install   p11-kit-trust-0.23.20-1.any
+libsolv: 
+libsolv:   install   libp11-kit0-0.23.20-1.any
+libsolv: 
+libsolv:   install   libtasn1_6-4.14-1.any
+libsolv: 
+libsolv:   install   libpopt-common-1.18-1.any
+libsolv: 
+libsolv:   install   libffi6-3.2.1-2.any
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.19044.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 74
+libsolv: edges: 188, edge space: 223
+libsolv: edge creation took 0 ms
+libsolv: cycle: --> 
+libsolv: terminfo-6.1-1.20190727.any ##11##> 
+libsolv: terminfo-extra-6.1-1.20190727.any --10--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: bash-4.4.12-3.any ##11##> 
+libsolv: coreutils-9.0-1.any --10--> 
+libsolv: tzcode-2022b-1.any --10--> 
+libsolv: 
+libsolv: cycles broken: 2
+libsolv: cycle breaking took 0 ms
+libsolv: cycle edge creation took 0 ms
+libsolv: invedge space: 277
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 74 installed packages:
+libsolv:   - _autorebase-001091-1.any
+libsolv:   - alternatives-1.3.30c-10.any
+libsolv:   - base-cygwin-3.8-1.any
+libsolv:   - base-files-4.3-3.any
+libsolv:   - bash-4.4.12-3.any
+libsolv:   - bzip2-1.0.8-1.any
+libsolv:   - ca-certificates-2022.2.54-1.any
+libsolv:   - coreutils-9.0-1.any
+libsolv:   - crypto-policies-20190218-1.any
+libsolv:   - cygutils-1.4.17-1.any
+libsolv:   - cygwin-3.3.5-1.any
+libsolv:   - dash-0.5.11.5-1.any
+libsolv:   - diffutils-3.8-1.any
+libsolv:   - editrights-1.03-1.any
+libsolv:   - file-5.41-2.any
+libsolv:   - findutils-4.9.0-1.any
+libsolv:   - gawk-5.1.1-1.any
+libsolv:   - getent-2.18.90-4.any
+libsolv:   - grep-3.7-2.any
+libsolv:   - groff-1.22.4-1.any
+libsolv:   - gzip-1.12-1.any
+libsolv:   - hostname-3.13-1.any
+libsolv:   - info-6.8-2.any
+libsolv:   - ipc-utils-1.0-2.any
+libsolv:   - less-590-1.any
+libsolv:   - libargp-20110921-3.any
+libsolv:   - libattr1-2.4.48-2.any
+libsolv:   - libblkid1-2.33.1-2.any
+libsolv:   - libbz2_1-1.0.8-1.any
+libsolv:   - libfdisk1-2.33.1-2.any
+libsolv:   - libffi6-3.2.1-2.any
+libsolv:   - libgcc1-11.3.0-1.any
+libsolv:   - libgdbm6-1.18.1-1.any
+libsolv:   - libgmp10-6.2.1-2.any
+libsolv:   - libiconv2-1.17-1.any
+libsolv:   - libintl8-0.21-1.any
+libsolv:   - liblz4_1-1.7.5-1.any
+libsolv:   - liblzma5-5.2.6-1.any
+libsolv:   - libmpfr6-4.1.0-2.any
+libsolv:   - libncursesw10-6.1-1.20190727.any
+libsolv:   - libp11-kit0-0.23.20-1.any
+libsolv:   - libpcre1-8.45-1.any
+libsolv:   - libpcre2_8_0-10.40-1.any
+libsolv:   - libpipeline1-1.5.3-1.any
+libsolv:   - libpopt-common-1.18-1.any
+libsolv:   - libpopt0-1.18-1.any
+libsolv:   - libreadline7-8.1-2.any
+libsolv:   - libsigsegv2-2.10-2.any
+libsolv:   - libsmartcols1-2.33.1-2.any
+libsolv:   - libssl1.1-1.1.1q-1.any
+libsolv:   - libstdc++6-11.3.0-1.any
+libsolv:   - libtasn1_6-4.14-1.any
+libsolv:   - libuuid1-2.33.1-2.any
+libsolv:   - login-1.13-1.any
+libsolv:   - man-db-2.10.2-1.any
+libsolv:   - mintty-3.6.1-1.any
+libsolv:   - ncurses-6.1-1.20190727.any
+libsolv:   - openssl-1.1.1q-1.any
+libsolv:   - p11-kit-0.23.20-1.any
+libsolv:   - p11-kit-trust-0.23.20-1.any
+libsolv:   - rebase-4.6.1-1.any
+libsolv:   - run-1.3.4-2.any
+libsolv:   - sed-4.8-1.any
+libsolv:   - tar-1.34-1.any
+libsolv:   - terminfo-6.1-1.20190727.any
+libsolv:   - terminfo-extra-6.1-1.20190727.any
+libsolv:   - tzcode-2022b-1.any
+libsolv:   - tzdata-2022b-1.any
+libsolv:   - util-linux-2.33.1-2.any
+libsolv:   - vim-minimal-8.2.4372-1.any
+libsolv:   - which-2.20-2.any
+libsolv:   - xz-5.2.6-1.any
+libsolv:   - zlib0-1.2.12-1.any
+libsolv:   - zstd-1.5.2-1.any
+libsolv: 
+2022/08/20 14:15:14 solving: 83 tasks, update: no, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0
+libsolv: obsoletes data: 1 entries
+libsolv: added 0 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 768 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 387 of 27846 installable solvables considered for solving
+libsolv: pruned rules from 1676 to 1676
+libsolv:   binary: 628
+libsolv:   normal: 1047, 6117 literals
+libsolv: pkg rule memory used: 39 K
+libsolv: pkg rule creation took 1 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 1675 pkg rules, 2 * 2 update rules, 83 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
+libsolv: overall rule memory used: 41 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 1 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 2 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   install   _autorebase-001091-1.any
+libsolv: 
+libsolv:   install   alternatives-1.3.30c-10.any
+libsolv: 
+libsolv:   install   ansible-2.8.2-1.any
+libsolv: 
+libsolv:   install   ansible-src-2.8.2-1.src
+libsolv: 
+libsolv:   install   ansible-doc-2.8.2-1.any
+libsolv: 
+libsolv:   install   ansible-doc-src-2.8.2-1.src
+libsolv: 
+libsolv:   install   base-cygwin-3.8-1.any
+libsolv: 
+libsolv:   install   base-files-4.3-3.any
+libsolv: 
+libsolv:   install   base-files-src-4.3-3.src
+libsolv: 
+libsolv:   install   bash-4.4.12-3.any
+libsolv: 
+libsolv:   install   bash-src-4.4.12-3.src
+libsolv: 
+libsolv:   install   bzip2-1.0.8-1.any
+libsolv: 
+libsolv:   install   ca-certificates-2022.2.54-1.any
+libsolv: 
+libsolv:   install   coreutils-9.0-1.any
+libsolv: 
+libsolv:   install   crypto-policies-20190218-1.any
+libsolv: 
+libsolv:   install   cygutils-1.4.17-1.any
+libsolv: 
+libsolv:   install   cygwin-3.3.5-1.any
+libsolv: 
+libsolv:   install   dash-0.5.11.5-1.any
+libsolv: 
+libsolv:   install   diffutils-3.8-1.any
+libsolv: 
+libsolv:   install   editrights-1.03-1.any
+libsolv: 
+libsolv:   install   file-5.41-2.any
+libsolv: 
+libsolv:   install   findutils-4.9.0-1.any
+libsolv: 
+libsolv:   install   gawk-5.1.1-1.any
+libsolv: 
+libsolv:   install   getent-2.18.90-4.any
+libsolv: 
+libsolv:   install   grep-3.7-2.any
+libsolv: 
+libsolv:   install   grep-src-3.7-2.src
+libsolv: 
+libsolv:   install   groff-1.22.4-1.any
+libsolv: 
+libsolv:   install   gzip-1.12-1.any
+libsolv: 
+libsolv:   install   hostname-3.13-1.any
+libsolv: 
+libsolv:   install   hostname-src-3.13-1.src
+libsolv: 
+libsolv:   install   info-6.8-2.any
+libsolv: 
+libsolv:   install   ipc-utils-1.0-2.any
+libsolv: 
+libsolv:   install   less-590-1.any
+libsolv: 
+libsolv:   install   libargp-20110921-3.any
+libsolv: 
+libsolv:   install   libattr1-2.4.48-2.any
+libsolv: 
+libsolv:   install   libblkid1-2.33.1-2.any
+libsolv: 
+libsolv:   install   libbz2_1-1.0.8-1.any
+libsolv: 
+libsolv:   install   libfdisk1-2.33.1-2.any
+libsolv: 
+libsolv:   install   libffi6-3.2.1-2.any
+libsolv: 
+libsolv:   install   libgcc1-11.3.0-1.any
+libsolv: 
+libsolv:   install   libgdbm6-1.18.1-1.any
+libsolv: 
+libsolv:   install   libgmp10-6.2.1-2.any
+libsolv: 
+libsolv:   install   libiconv2-1.17-1.any
+libsolv: 
+libsolv:   install   libintl8-0.21-1.any
+libsolv: 
+libsolv:   install   liblz4_1-1.7.5-1.any
+libsolv: 
+libsolv:   install   liblzma5-5.2.6-1.any
+libsolv: 
+libsolv:   install   libmpfr6-4.1.0-2.any
+libsolv: 
+libsolv:   install   libncursesw10-6.1-1.20190727.any
+libsolv: 
+libsolv:   install   libp11-kit0-0.23.20-1.any
+libsolv: 
+libsolv:   install   libpcre1-8.45-1.any
+libsolv: 
+libsolv:   install   libpcre2_8_0-10.40-1.any
+libsolv: 
+libsolv:   install   libpipeline1-1.5.3-1.any
+libsolv: 
+libsolv:   install   libpopt-common-1.18-1.any
+libsolv: 
+libsolv:   install   libpopt0-1.18-1.any
+libsolv: 
+libsolv:   install   libreadline7-8.1-2.any
+libsolv: 
+libsolv:   install   libsigsegv2-2.10-2.any
+libsolv: 
+libsolv:   install   libsmartcols1-2.33.1-2.any
+libsolv: 
+libsolv:   install   libssl1.1-1.1.1q-1.any
+libsolv: 
+libsolv:   install   libstdc++6-11.3.0-1.any
+libsolv: 
+libsolv:   install   libtasn1_6-4.14-1.any
+libsolv: 
+libsolv:   install   libuuid1-2.33.1-2.any
+libsolv: 
+libsolv:   install   login-1.13-1.any
+libsolv: 
+libsolv:   install   man-db-2.10.2-1.any
+libsolv: 
+libsolv:   install   mintty-3.6.1-1.any
+libsolv: 
+libsolv:   install   ncurses-6.1-1.20190727.any
+libsolv: 
+libsolv:   install   openssl-1.1.1q-1.any
+libsolv: 
+libsolv:   install   p11-kit-0.23.20-1.any
+libsolv: 
+libsolv:   install   p11-kit-trust-0.23.20-1.any
+libsolv: 
+libsolv:   install   rebase-4.6.1-1.any
+libsolv: 
+libsolv:   install   run-1.3.4-2.any
+libsolv: 
+libsolv:   install   sed-4.8-1.any
+libsolv: 
+libsolv:   install   tar-1.34-1.any
+libsolv: 
+libsolv:   install   tar-src-1.34-1.src
+libsolv: 
+libsolv:   install   terminfo-6.1-1.20190727.any
+libsolv: 
+libsolv:   install   terminfo-extra-6.1-1.20190727.any
+libsolv: 
+libsolv:   install   tzcode-2022b-1.any
+libsolv: 
+libsolv:   install   tzdata-2022b-1.any
+libsolv: 
+libsolv:   install   util-linux-2.33.1-2.any
+libsolv: 
+libsolv:   install   vim-minimal-8.2.4372-1.any
+libsolv: 
+libsolv:   install   which-2.20-2.any
+libsolv: 
+libsolv:   install   xz-5.2.6-1.any
+libsolv: 
+libsolv:   install   zlib0-1.2.12-1.any
+libsolv: 
+libsolv:   install   zstd-1.5.2-1.any
+libsolv: 
+libsolv:   install   python37-passlib-1.7.1-1.any
+libsolv: 
+libsolv:   install   python37-pypsrp-0.3.1-1.any
+libsolv: 
+libsolv:   install   python37-winrm-0.3.0-1.any
+libsolv: 
+libsolv:   install   sshpass-1.06-1.any
+libsolv: 
+libsolv:   install   python37-requests_ntlm-1.1.0-1.any
+libsolv: 
+libsolv:   install   python37-3.7.12-1.any
+libsolv: 
+libsolv:   install   python37-requests-2.27.1-1.any
+libsolv: 
+libsolv:   install   python37-six-1.16.0-1.any
+libsolv: 
+libsolv:   install   python37-xmltodict-0.12.0-3.any
+libsolv: 
+libsolv:   install   python37-cryptography-3.3.2-1.any
+libsolv: 
+libsolv:   install   python37-ntlm-auth-1.5.0-2.any
+libsolv: 
+libsolv:   install   python37-chardet-4.0.0-2.any
+libsolv: 
+libsolv:   install   python37-idna-3.3-1.any
+libsolv: 
+libsolv:   install   python37-urllib3-1.26.7-1.any
+libsolv: 
+libsolv:   install   python37-setuptools-59.5.0-1.any
+libsolv: 
+libsolv:   install   python37-cffi-1.15.0-1.any
+libsolv: 
+libsolv:   install   python37-pycparser-2.20-2.any
+libsolv: 
+libsolv:   install   binutils-2.38-1.any
+libsolv: 
+libsolv:   install   libcrypt2-4.4.20-1.any
+libsolv: 
+libsolv:   install   libexpat1-2.4.1-1.any
+libsolv: 
+libsolv:   install   libgdbm_compat4-1.18.1-1.any
+libsolv: 
+libsolv:   install   libsqlite3_0-3.34.0-1.any
+libsolv: 
+libsolv:   install   python37-pip-21.3.1-3.any
+libsolv: 
+libsolv:   install   openssh-9.0p1-1.any
+libsolv: 
+libsolv:   install   python37-certifi-2021.10.8-1.any
+libsolv: 
+libsolv:   install   python37-jinja2-3.0.3-1.any
+libsolv: 
+libsolv:   install   python37-jmespath-0.10.0-2.any
+libsolv: 
+libsolv:   install   python37-yaml-6.0-1.any
+libsolv: 
+libsolv:   install   libyaml0_2-0.2.5-1.any
+libsolv: 
+libsolv:   install   gcc-core-11.3.0-1.any
+libsolv: 
+libsolv:   install   python37-ply-3.11-3.any
+libsolv: 
+libsolv:   install   python37-markupsafe-2.0.1-1.any
+libsolv: 
+libsolv:   install   csih-0.9.11-1.any
+libsolv: 
+libsolv:   install   cygrunsrv-1.62-1.any
+libsolv: 
+libsolv:   install   libedit0-20130712-1.any
+libsolv: 
+libsolv:   install   libfido2-1.11.0-1.any
+libsolv: 
+libsolv:   install   libgssapi_krb5_2-1.15.2-2.any
+libsolv: 
+libsolv:   install   libkrb5_3-1.15.2-2.any
+libsolv: 
+libsolv:   install   libcom_err2-1.44.5-1.any
+libsolv: 
+libsolv:   install   libk5crypto3-1.15.2-2.any
+libsolv: 
+libsolv:   install   libkrb5support0-1.15.2-2.any
+libsolv: 
+libsolv:   install   cygwin-devel-3.3.5-1.any
+libsolv: 
+libsolv:   install   libatomic1-11.3.0-1.any
+libsolv: 
+libsolv:   install   libgomp1-11.3.0-1.any
+libsolv: 
+libsolv:   install   libisl23-0.25-1.any
+libsolv: 
+libsolv:   install   libmpc3-1.2.1-2.any
+libsolv: 
+libsolv:   install   libquadmath0-11.3.0-1.any
+libsolv: 
+libsolv:   install   libzstd1-1.5.2-1.any
+libsolv: 
+libsolv:   install   w32api-headers-10.0.0-1.any
+libsolv: 
+libsolv:   install   w32api-runtime-10.0.0-1.any
+libsolv: 
+libsolv:   install   windows-default-manifest-6.4-1.any
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.19044.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 134
+libsolv: edges: 365, edge space: 424
+libsolv: edge creation took 0 ms
+libsolv: cycle: --> 
+libsolv: python37-3.7.12-1.any ##11##> 
+libsolv: python37-setuptools-59.5.0-1.any --10--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: python37-3.7.12-1.any ##11##> 
+libsolv: python37-pip-21.3.1-3.any --10--> 
+libsolv: python37-setuptools-59.5.0-1.any --10--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: terminfo-6.1-1.20190727.any ##11##> 
+libsolv: terminfo-extra-6.1-1.20190727.any --10--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: bash-4.4.12-3.any ##11##> 
+libsolv: coreutils-9.0-1.any --10--> 
+libsolv: tzcode-2022b-1.any --10--> 
+libsolv: 
+libsolv: cycles broken: 4
+libsolv: cycle breaking took 0 ms
+libsolv: cycle edge creation took 0 ms
+libsolv: invedge space: 556
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 134 installed packages:
+libsolv:   - _autorebase-001091-1.any
+libsolv:   - alternatives-1.3.30c-10.any
+libsolv:   - ansible-2.8.2-1.any
+libsolv:   - ansible-doc-2.8.2-1.any
+libsolv:   - ansible-doc-src-2.8.2-1.src
+libsolv:   - ansible-src-2.8.2-1.src
+libsolv:   - base-cygwin-3.8-1.any
+libsolv:   - base-files-4.3-3.any
+libsolv:   - base-files-src-4.3-3.src
+libsolv:   - bash-4.4.12-3.any
+libsolv:   - bash-src-4.4.12-3.src
+libsolv:   - binutils-2.38-1.any
+libsolv:   - bzip2-1.0.8-1.any
+libsolv:   - ca-certificates-2022.2.54-1.any
+libsolv:   - coreutils-9.0-1.any
+libsolv:   - crypto-policies-20190218-1.any
+libsolv:   - csih-0.9.11-1.any
+libsolv:   - cygrunsrv-1.62-1.any
+libsolv:   - cygutils-1.4.17-1.any
+libsolv:   - cygwin-3.3.5-1.any
+libsolv:   - cygwin-devel-3.3.5-1.any
+libsolv:   - dash-0.5.11.5-1.any
+libsolv:   - diffutils-3.8-1.any
+libsolv:   - editrights-1.03-1.any
+libsolv:   - file-5.41-2.any
+libsolv:   - findutils-4.9.0-1.any
+libsolv:   - gawk-5.1.1-1.any
+libsolv:   - gcc-core-11.3.0-1.any
+libsolv:   - getent-2.18.90-4.any
+libsolv:   - grep-3.7-2.any
+libsolv:   - grep-src-3.7-2.src
+libsolv:   - groff-1.22.4-1.any
+libsolv:   - gzip-1.12-1.any
+libsolv:   - hostname-3.13-1.any
+libsolv:   - hostname-src-3.13-1.src
+libsolv:   - info-6.8-2.any
+libsolv:   - ipc-utils-1.0-2.any
+libsolv:   - less-590-1.any
+libsolv:   - libargp-20110921-3.any
+libsolv:   - libatomic1-11.3.0-1.any
+libsolv:   - libattr1-2.4.48-2.any
+libsolv:   - libblkid1-2.33.1-2.any
+libsolv:   - libbz2_1-1.0.8-1.any
+libsolv:   - libcom_err2-1.44.5-1.any
+libsolv:   - libcrypt2-4.4.20-1.any
+libsolv:   - libedit0-20130712-1.any
+libsolv:   - libexpat1-2.4.1-1.any
+libsolv:   - libfdisk1-2.33.1-2.any
+libsolv:   - libffi6-3.2.1-2.any
+libsolv:   - libfido2-1.11.0-1.any
+libsolv:   - libgcc1-11.3.0-1.any
+libsolv:   - libgdbm6-1.18.1-1.any
+libsolv:   - libgdbm_compat4-1.18.1-1.any
+libsolv:   - libgmp10-6.2.1-2.any
+libsolv:   - libgomp1-11.3.0-1.any
+libsolv:   - libgssapi_krb5_2-1.15.2-2.any
+libsolv:   - libiconv2-1.17-1.any
+libsolv:   - libintl8-0.21-1.any
+libsolv:   - libisl23-0.25-1.any
+libsolv:   - libk5crypto3-1.15.2-2.any
+libsolv:   - libkrb5_3-1.15.2-2.any
+libsolv:   - libkrb5support0-1.15.2-2.any
+libsolv:   - liblz4_1-1.7.5-1.any
+libsolv:   - liblzma5-5.2.6-1.any
+libsolv:   - libmpc3-1.2.1-2.any
+libsolv:   - libmpfr6-4.1.0-2.any
+libsolv:   - libncursesw10-6.1-1.20190727.any
+libsolv:   - libp11-kit0-0.23.20-1.any
+libsolv:   - libpcre1-8.45-1.any
+libsolv:   - libpcre2_8_0-10.40-1.any
+libsolv:   - libpipeline1-1.5.3-1.any
+libsolv:   - libpopt-common-1.18-1.any
+libsolv:   - libpopt0-1.18-1.any
+libsolv:   - libquadmath0-11.3.0-1.any
+libsolv:   - libreadline7-8.1-2.any
+libsolv:   - libsigsegv2-2.10-2.any
+libsolv:   - libsmartcols1-2.33.1-2.any
+libsolv:   - libsqlite3_0-3.34.0-1.any
+libsolv:   - libssl1.1-1.1.1q-1.any
+libsolv:   - libstdc++6-11.3.0-1.any
+libsolv:   - libtasn1_6-4.14-1.any
+libsolv:   - libuuid1-2.33.1-2.any
+libsolv:   - libyaml0_2-0.2.5-1.any
+libsolv:   - libzstd1-1.5.2-1.any
+libsolv:   - login-1.13-1.any
+libsolv:   - man-db-2.10.2-1.any
+libsolv:   - mintty-3.6.1-1.any
+libsolv:   - ncurses-6.1-1.20190727.any
+libsolv:   - openssh-9.0p1-1.any
+libsolv:   - openssl-1.1.1q-1.any
+libsolv:   - p11-kit-0.23.20-1.any
+libsolv:   - p11-kit-trust-0.23.20-1.any
+libsolv:   - python37-3.7.12-1.any
+libsolv:   - python37-certifi-2021.10.8-1.any
+libsolv:   - python37-cffi-1.15.0-1.any
+libsolv:   - python37-chardet-4.0.0-2.any
+libsolv:   - python37-cryptography-3.3.2-1.any
+libsolv:   - python37-idna-3.3-1.any
+libsolv:   - python37-jinja2-3.0.3-1.any
+libsolv:   - python37-jmespath-0.10.0-2.any
+libsolv:   - python37-markupsafe-2.0.1-1.any
+libsolv:   - python37-ntlm-auth-1.5.0-2.any
+libsolv:   - python37-passlib-1.7.1-1.any
+libsolv:   - python37-pip-21.3.1-3.any
+libsolv:   - python37-ply-3.11-3.any
+libsolv:   - python37-pycparser-2.20-2.any
+libsolv:   - python37-pypsrp-0.3.1-1.any
+libsolv:   - python37-requests-2.27.1-1.any
+libsolv:   - python37-requests_ntlm-1.1.0-1.any
+libsolv:   - python37-setuptools-59.5.0-1.any
+libsolv:   - python37-six-1.16.0-1.any
+libsolv:   - python37-urllib3-1.26.7-1.any
+libsolv:   - python37-winrm-0.3.0-1.any
+libsolv:   - python37-xmltodict-0.12.0-3.any
+libsolv:   - python37-yaml-6.0-1.any
+libsolv:   - rebase-4.6.1-1.any
+libsolv:   - run-1.3.4-2.any
+libsolv:   - sed-4.8-1.any
+libsolv:   - sshpass-1.06-1.any
+libsolv:   - tar-1.34-1.any
+libsolv:   - tar-src-1.34-1.src
+libsolv:   - terminfo-6.1-1.20190727.any
+libsolv:   - terminfo-extra-6.1-1.20190727.any
+libsolv:   - tzcode-2022b-1.any
+libsolv:   - tzdata-2022b-1.any
+libsolv:   - util-linux-2.33.1-2.any
+libsolv:   - vim-minimal-8.2.4372-1.any
+libsolv:   - w32api-headers-10.0.0-1.any
+libsolv:   - w32api-runtime-10.0.0-1.any
+libsolv:   - which-2.20-2.any
+libsolv:   - windows-default-manifest-6.4-1.any
+libsolv:   - xz-5.2.6-1.any
+libsolv:   - zlib0-1.2.12-1.any
+libsolv:   - zstd-1.5.2-1.any
+libsolv: 
+2022/08/20 14:15:14 Augmented Transaction List:
+2022/08/20 14:15:14    0 install ansible-src              2.8.2-1        
+2022/08/20 14:15:14    1 install ansible-doc              2.8.2-1        
+2022/08/20 14:15:14    2 install ansible-doc-src          2.8.2-1        
+2022/08/20 14:15:14    3 install base-cygwin              3.8-1          
+2022/08/20 14:15:14    4 install base-files-src           4.3-3          
+2022/08/20 14:15:14    5 install bash-src                 4.4.12-3       
+2022/08/20 14:15:14    6 install cygwin                   3.3.5-1        
+2022/08/20 14:15:14    7 install grep-src                 3.7-2          
+2022/08/20 14:15:14    8 install hostname-src             3.13-1         
+2022/08/20 14:15:14    9 install libpopt-common           1.18-1         
+2022/08/20 14:15:14   10 install rebase                   4.6.1-1        
+2022/08/20 14:15:14   11 install tar-src                  1.34-1         
+2022/08/20 14:15:14   12 install terminfo                 6.1-1.20190727 
+2022/08/20 14:15:14   13 install tzdata                   2022b-1        
+2022/08/20 14:15:14   14 install cygwin-devel             3.3.5-1        
+2022/08/20 14:15:14   15 install w32api-headers           10.0.0-1       
+2022/08/20 14:15:14   16 install windows-default-manifest 6.4-1          
+2022/08/20 14:15:14   17 install libzstd1                 1.5.2-1        
+2022/08/20 14:15:14   18 install libatomic1               11.3.0-1       
+2022/08/20 14:15:14   19 install cygrunsrv                1.62-1         
+2022/08/20 14:15:14   20 install libyaml0_2               0.2.5-1        
+2022/08/20 14:15:14   21 install libsqlite3_0             3.34.0-1       
+2022/08/20 14:15:14   22 install libexpat1                2.4.1-1        
+2022/08/20 14:15:14   23 install libcrypt2                4.4.20-1       
+2022/08/20 14:15:14   24 install sshpass                  1.06-1         
+2022/08/20 14:15:14   25 install zlib0                    1.2.12-1       
+2022/08/20 14:15:14   26 install which                    2.20-2         
+2022/08/20 14:15:14   27 install run                      1.3.4-2        
+2022/08/20 14:15:14   28 install mintty                   3.6.1-1        
+2022/08/20 14:15:14   29 install login                    1.13-1         
+2022/08/20 14:15:14   30 install libtasn1_6               4.14-1         
+2022/08/20 14:15:14   31 install libsigsegv2              2.10-2         
+2022/08/20 14:15:14   32 install libpipeline1             1.5.3-1        
+2022/08/20 14:15:14   33 install libpcre2_8_0             10.40-1        
+2022/08/20 14:15:14   34 install libpcre1                 8.45-1         
+2022/08/20 14:15:14   35 install liblzma5                 5.2.6-1        
+2022/08/20 14:15:14   36 install liblz4_1                 1.7.5-1        
+2022/08/20 14:15:14   37 install libiconv2                1.17-1         
+2022/08/20 14:15:14   38 install libgmp10                 6.2.1-2        
+2022/08/20 14:15:14   39 install libgcc1                  11.3.0-1       
+2022/08/20 14:15:14   40 install libffi6                  3.2.1-2        
+2022/08/20 14:15:14   41 install libbz2_1                 1.0.8-1        
+2022/08/20 14:15:14   42 install libargp                  20110921-3     
+2022/08/20 14:15:14   43 install ipc-utils                1.0-2          
+2022/08/20 14:15:14   44 install hostname                 3.13-1         
+2022/08/20 14:15:14   45 install editrights               1.03-1         
+2022/08/20 14:15:14   46 install dash                     0.5.11.5-1     
+2022/08/20 14:15:14   47 install terminfo-extra           6.1-1.20190727 
+2022/08/20 14:15:14   48 install w32api-runtime           10.0.0-1       
+2022/08/20 14:15:14   49 install libintl8                 0.21-1         
+2022/08/20 14:15:14   50 install libisl23                 0.25-1         
+2022/08/20 14:15:14   51 install libquadmath0             11.3.0-1       
+2022/08/20 14:15:14   52 install libgomp1                 11.3.0-1       
+2022/08/20 14:15:14   53 install libcom_err2              1.44.5-1       
+2022/08/20 14:15:14   54 install libstdc++6               11.3.0-1       
+2022/08/20 14:15:14   55 install libmpfr6                 4.1.0-2        
+2022/08/20 14:15:14   56 install file                     5.41-2         
+2022/08/20 14:15:14   57 install getent                   2.18.90-4      
+2022/08/20 14:15:14   58 install _autorebase              001091-1       
+2022/08/20 14:15:14   59 install libncursesw10            6.1-1.20190727 
+2022/08/20 14:15:14   60 install libkrb5support0          1.15.2-2       
+2022/08/20 14:15:14   61 install binutils                 2.38-1         
+2022/08/20 14:15:14   62 install sed                      4.8-1          
+2022/08/20 14:15:14   63 install libuuid1                 2.33.1-2       
+2022/08/20 14:15:14   64 install libsmartcols1            2.33.1-2       
+2022/08/20 14:15:14   65 install libpopt0                 1.18-1         
+2022/08/20 14:15:14   66 install libp11-kit0              0.23.20-1      
+2022/08/20 14:15:14   67 install libgdbm6                 1.18.1-1       
+2022/08/20 14:15:14   68 install libattr1                 2.4.48-2       
+2022/08/20 14:15:14   69 install diffutils                3.8-1          
+2022/08/20 14:15:14   70 install alternatives             1.3.30c-10     
+2022/08/20 14:15:14   71 install libmpc3                  1.2.1-2        
+2022/08/20 14:15:14   72 install libedit0                 20130712-1     
+2022/08/20 14:15:14   73 install vim-minimal              8.2.4372-1     
+2022/08/20 14:15:14   74 install ncurses                  6.1-1.20190727 
+2022/08/20 14:15:14   75 install libreadline7             8.1-2          
+2022/08/20 14:15:14   76 install less                     590-1          
+2022/08/20 14:15:14   77 install info                     6.8-2          
+2022/08/20 14:15:14   78 install libk5crypto3             1.15.2-2       
+2022/08/20 14:15:14   79 install libblkid1                2.33.1-2       
+2022/08/20 14:15:14   80 install cygutils                 1.4.17-1       
+2022/08/20 14:15:14   81 install p11-kit-trust            0.23.20-1      
+2022/08/20 14:15:14   82 install p11-kit                  0.23.20-1      
+2022/08/20 14:15:14   83 install libgdbm_compat4          1.18.1-1       
+2022/08/20 14:15:14   84 install gawk                     5.1.1-1        
+2022/08/20 14:15:14   85 install bash                     4.4.12-3       
+2022/08/20 14:15:14   86 install libkrb5_3                1.15.2-2       
+2022/08/20 14:15:14   87 install libfdisk1                2.33.1-2       
+2022/08/20 14:15:14   88 install tzcode                   2022b-1        
+2022/08/20 14:15:14   89 install libgssapi_krb5_2         1.15.2-2       
+2022/08/20 14:15:14   90 install util-linux               2.33.1-2       
+2022/08/20 14:15:14   91 install coreutils                9.0-1          
+2022/08/20 14:15:14   92 install gcc-core                 11.3.0-1       
+2022/08/20 14:15:14   93 install zstd                     1.5.2-1        
+2022/08/20 14:15:14   94 install xz                       5.2.6-1        
+2022/08/20 14:15:14   95 install gzip                     1.12-1         
+2022/08/20 14:15:14   96 install groff                    1.22.4-1       
+2022/08/20 14:15:14   97 install grep                     3.7-2          
+2022/08/20 14:15:14   98 install findutils                4.9.0-1        
+2022/08/20 14:15:14   99 install crypto-policies          20190218-1     
+2022/08/20 14:15:14  100 install ca-certificates          2022.2.54-1    
+2022/08/20 14:15:14  101 install bzip2                    1.0.8-1        
+2022/08/20 14:15:14  102 install man-db                   2.10.2-1       
+2022/08/20 14:15:14  103 install csih                     0.9.11-1       
+2022/08/20 14:15:14  104 install base-files               4.3-3          
+2022/08/20 14:15:14  105 install libssl1.1                1.1.1q-1       
+2022/08/20 14:15:14  106 install tar                      1.34-1         
+2022/08/20 14:15:14  107 install libfido2                 1.11.0-1       
+2022/08/20 14:15:14  108 install python37                 3.7.12-1       
+2022/08/20 14:15:14  109 install openssl                  1.1.1q-1       
+2022/08/20 14:15:14  110 install openssh                  9.0p1-1        
+2022/08/20 14:15:14  111 install python37-setuptools      59.5.0-1       
+2022/08/20 14:15:14  112 install python37-pip             21.3.1-3       
+2022/08/20 14:15:14  113 install python37-markupsafe      2.0.1-1        
+2022/08/20 14:15:14  114 install python37-ply             3.11-3         
+2022/08/20 14:15:14  115 install python37-yaml            6.0-1          
+2022/08/20 14:15:14  116 install python37-jmespath        0.10.0-2       
+2022/08/20 14:15:14  117 install python37-certifi         2021.10.8-1    
+2022/08/20 14:15:14  118 install python37-idna            3.3-1          
+2022/08/20 14:15:14  119 install python37-chardet         4.0.0-2        
+2022/08/20 14:15:14  120 install python37-ntlm-auth       1.5.0-2        
+2022/08/20 14:15:14  121 install python37-xmltodict       0.12.0-3       
+2022/08/20 14:15:14  122 install python37-six             1.16.0-1       
+2022/08/20 14:15:14  123 install python37-passlib         1.7.1-1        
+2022/08/20 14:15:14  124 install python37-jinja2          3.0.3-1        
+2022/08/20 14:15:14  125 install python37-pycparser       2.20-2         
+2022/08/20 14:15:14  126 install python37-urllib3         1.26.7-1       
+2022/08/20 14:15:14  127 install python37-cffi            1.15.0-1       
+2022/08/20 14:15:14  128 install python37-requests        2.27.1-1       
+2022/08/20 14:15:14  129 install python37-cryptography    3.3.2-1        
+2022/08/20 14:15:14  130 install python37-requests_ntlm   1.1.0-1        
+2022/08/20 14:15:14  131 install python37-pypsrp          0.3.1-1        
+2022/08/20 14:15:14  132 install python37-winrm           0.3.0-1        
+2022/08/20 14:15:14  133 install ansible                  2.8.2-1        
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz 3af3f4bd622ae5b1526e397c249f5034d5ee8dd121f8cd62a4fa616cf32d66f3039fe88eeb390402650af1e05faf7ab2480d5fb67fa6307960f20c665529a0c0
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.3.5-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.3.5-1.tar.xz 5b05086c4eb1f2768b8dd096de94c7655bc89689ec4ffba11ac4aa971f5ee73081db34e77f088c9baea5e143e07ef27df8aaad843807726e9041ffe1a7086bd6
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.18-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.18-1.tar.xz 38cbccb5bdbff6f44086959cd68aa7801f03758013f59e4a71c3eaedaa1070007f24b7865db2d015c08d7b34d23874bae7949304a2d008c9c5535ac1af352924
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.1-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.1-1.tar.xz 202200dc31812d10c468eea17b99d5f6f455841bffdfc010dd4f7a777f03e882fb2b45bd8de20f75490d4650eb9da99923d78593dd9f39c5d73a8234e5f7337d
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.1-1.20190727.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.1-1.20190727.tar.xz 49df3d00cdfa059d7a5f096ebb46df7e94d2d0c40f241505d9972cab2904a4a9a2efb9a13b682f56653d5e4384d25ee14bcc1ab7d3ad89001653cbe5d2194f7d
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2022b-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2022b-1.tar.xz e0c4f9749ee07fcb64faf986cb597c6b591c00bef196207dc02989121fa790ed05fbe03435f72df7b0937caebfe17d9989deef062d387181ae0d525f109d2471
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.2.12-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.2.12-1.tar.zst 8e7eded7f9de125569364ad7bc2af48da83dac20b895196b9e36d6bd20c0bee6339535dceda71f8e106f8d0d6b871d2a2265f853070e92775c243573e6f9888b
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2 8d3804b90a7830afa6fb583b1d142adb0fbf1556426c7809033a57361bfcbdf2b05901b07bad5506586541531ccc352f8e3003a1855eace0a5f8483cb4110e42
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz 7e3156bbddc5f934fde3530879aa5186c9fdccb757ba848fc958e79e96534b336975f2882e413d5c18174628033a422157d25c48f8b5e90f0f1555ff2fa6343f
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.1-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.1-1.tar.xz 5268860ead2112d07f30aab8fa47544603abb03b6539b3f3319610e10f676fdb9ec8a1496be61f7912bbadf4932287792a1472b884013db54969fddecc47aa17
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz 66acc3255962a27af8d701a8c02846f3b9180b7b1d65d946f6fb27cd24aeedc8e6a9a2601b419e981c94b356ef376a5c565ea31a4a220e5add9d70ae501a11d1
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz 6ae80701119a73e8b8ade762fa67a163d4e46699294718c00e7f7dbfadbf38c7687f97a47b7d0fbff97b2870da9bc76115b414c24800269d03341d879c8b355c
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz 93c63e94a327dd3fca9dc6d51953705284f3eb4a0acdf1c7f28acc48eaf4bf56693f5957fe0dad1f3287804cc694a923dd7a797a62be25ff80a0eff2a52a8a76
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.3-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.3-1.tar.xz 15c81ed9d7471cd9dd74ba5cf8b7319bac16a645dc5968a25b46cd1b5bae2fa7d0e260c8e9e4ccc73fd7f7142856098cc3d5ca87d9560ca3f2cca0efc991ef98
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.40-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.40-1.tar.zst 73fcf1dee02e353f00987f9727e0bc9f6c4ff6fed6d94931ac6ee74bce79dbdfdeec335a09a75f6c259228f2bff9358f78d824b8d96b9f4df7c553433ed9dc93
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst 85c793ed3622a00b811773b94c45376882513e267b9f1d2a3efa0bc42ff86a4e4bebd8362a193d302e66ae9e5c9b93befc1bb1096c0fd397e2cd0f5632c808dd
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.6-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.6-1.tar.zst c2078a9b8837612732d454af5b3e2eb5a09ad4c762149fcd0e875f4b407bb4b512f73405740db7437ba57e07f84f102d11fbc60cdcf289f687ea99276f421fd7
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.7.5-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.7.5-1.tar.xz c52d0df633c5597de9d177a6566eea92f24281034bbb15c97c4d78149c6536563317ac39e30421fec03fbee352bb4068bfadd07e4d058fef2ec3455a45e277cd
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz 7aa0c696b9b9224151a7c1ba8bed552b24cd406b531732197827cd7f5980419227850d593a6d79ae24ffa38f76dd1cd2ce94f1001332fdf801c178bc4f778ef8
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.1-2.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.1-2.tar.zst 24363f4812c286c8eff361d2a67151bcf02f29a2ea83e150c73454b50f5d287dc2ba6a0c6b6c26ac5b6506bfb140ea87830637add42513b58ae4542ca5a2e9e2
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-11.3.0-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-11.3.0-1.tar.zst 29cc442e29a078e1f6637f4387a8aee90aef3afae420085def4956c1bc10cf89bc7ba74ed390ef4bccf010b092b327ae9c6c00514a6c69b9e609c4525ee999b8
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz d549f129aba53013d86eb912818f8633c3b4e5b7fb50dff6cdec5a069722ff2a93c246e27f7c99b56b7fa9c0d5ab182aed5b64cb9df7e898f1c02c35fdb445d5
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz 165724df59f96ebafe952b2cd135a4a5d69ebea5948fe1417c1a2ee257e8324e94e57b4f445e279a545dbdbf946e6119a96edefdc3c57839cd5401063eaea0f2
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz 07935d9b9450c4fcf9bc2a30163538545003b0390f5ddce1d1ba72eea1894daa04ea647db586eeda4fa2aadf93a30281cd42d3f06dbae147a03100ad16cff3d1
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2 409b383f8df821e729297206efc4834003640f2f503f882068f90c4f4359140d4bef38561cbfe77656058263922d493094201bad411ae9b38e15280eabf01720
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2 75114326fa4575b8341434658a881feb81a6565e7e0adf8fd100dde87022d3818b5fc3df430bd9b3298d818a1d23f6b6c4bc7ff33efb3ded5f0ea0bf118c1aae
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz c977dc726c095d1957e7d2535698a354ef4c88f7b567ca22f1042f4fe37bd1eac3ee14a59134ec087394e28a54d5a951280ab7aa8a654008d1ebde8663a690e8
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.11.5-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.11.5-1.tar.xz 5014baa55936725d7a294cb3cf65b786843483f9d002b474aa8de114412c7a4a7529704aaa1862931a07f576ddda8b0a34e3b2b85c4628764e936f19edd915f5
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.1-1.20190727.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.1-1.20190727.tar.xz da6ba0a9e65298b6113afeb5fb9db475d05c15be9db707ce30aba61be07a3d7adcc6f08079cfe49e38c8aa8a811b0135e7065f8b38f6e4916851530f4eb16b43
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.21-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.21-1.tar.xz a6a83e73c734df1e80e6b648bfbd515b92c85460c83a013c4cba385e3a5dbc45ab30ba714e1d3b18be924374cfc7026d4d2a132d5095de6df9e840a1a0269539
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-11.3.0-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-11.3.0-1.tar.zst c66a123d9d90a726646f8d2ad51945a122fb9c0610645c224a2e73acddb9f9c570ed66f48773e2e9e74f9b4970930d402962e08160da2f903ef7d00f63a860e7
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.1.0-2.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.1.0-2.tar.zst f9bee46b7a85a9216cd4bce75f011d1979bc9332c501a5ed2ffe7ec354d975f5d474f028075b84048be816c10b322feef90fbbf249c465307b74d74861d8fbee
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/file/file-5.41-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/file/file-5.41-2.tar.xz a393455dc516010de123d4048e18d15b217eb5b30ec87d2f15a8865981d5b6fd76eb23909aa8a111cf583e3faad43ef68e57c15351814881d858984ba7b3c9eb
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz 9bf746e89cec897cf76076a09724a2e3f3fbab5b96f15bb19c1dc36b0e317f586f0c311eb73f024f22bd5f1edbe3c5db0326bcfd8628ebc872aed0bf6bb8f541
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst a9416ce992ca57f3a6208f46517520d21dfac61988ac84cbb5b17b76e053a0845c15368ccb8ca9c483d8935f9e3db81568433c0d08d0265ec5e6916ea30f2831
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.1-1.20190727.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.1-1.20190727.tar.xz cc49f057d9100dea2932486997bd03fe50966cae068af008dc19cc0002189f8e8081c89f8c899034c99f0fc17e39f372c6fc61fc1d1a7b8f0b7bb0b4f7ca77e3
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sed/sed-4.8-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sed/sed-4.8-1.tar.xz 31e8c4bd675464d90f1b4a17183c0ed1de5c9b9dac8f922a7139a017c7671002b78fac5d284a99a991f944421018af8076a57b796dd8963a752496a0d884cb0d
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz 00d04abb865329bfbbe306750d07ab932d8670b6499da43f86fbf873cfd92e7f0ed83832ac5bbf80f27ca3c064b3bc195b1ae2d1d2de3e8930fb5802ecf02087
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz 7e983314fd55f211842586c8032418da5a0660fd50268e05610872ee63339695f0d87fb1288127affd4adabe0a0862c1b886ac32c813938831b23c0df686064e
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.18-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.18-1.tar.xz e88925646555ba276cd5e60e16251ee55dbe31a1772083921f0d8f34557b6a41db08852bb98ad046d04d40ba46c43850f06932fb67ccb53f83c57a905503ba2d
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz fcbf6cfa550a7ec78c84cdd579d06aae0d1fad16ac741e7e5e0e9a6f85b0d7c3b53c6af2ac7f8724e722e16d206cc108539f782b5da0b59615a4ee29a321e9fa
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz 97fd45a3ca4fb61e0126a67f0411601c8e7fd14181d20cd9db1e0e700b1468bed26830bc3656299442f4672c790db80e45420cf9b2a67993440d4109aaefda94
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz a9b6e6d80dfc211b0377b329cef5b1863a4a8c94d97e6ec73a2f7ad16ee6635310dad3f26e6ad0fa038c14fab6cd9f66c81f0140dd3503d010b247740bce2f47
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.8-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.8-1.tar.xz 2f759f851dd29c8718bd45b29013d5ade1a1cd0ec13b73c023c4a8f56d18decabfc6a4ce941c182b15e35a5effbe498ddf5985b35baab1c42befb7d63e6096ed
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2 b10340b5df208b8e7e0bce0b84539d7c4b4f46a2fdf9a58e17282900da8c203447adbe47ccd37b93e0bebd2fa2023b17380dca200b424a887b86aa96944c6580
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.4372-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.4372-1.tar.xz f0283cbe04108bef3bded45cc15b839018f1098c21347979f6aaf3702b113864e5b8524acb9410e945db414cab96e1d5d9bc1abbe3f61c5f0989a4364b89c372
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.1-1.20190727.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.1-1.20190727.tar.xz 0c9aaac32b06561ac56a833c733263b6194f0d274b5c0a32ae6add7aa8e76ade479549078f9401e409edea02d006b647f0a44490e3994b2ca4c7992f2103dea9
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.1-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.1-2.tar.xz 4533f999e36e02b8632ebb8c2eb8ba9428db5fe574163277079223090b7684b90c9fe6271496d4ccd4ba822ba2d17e95e648cc5503e2e3d38e7e5ef84d094870
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/less/less-590-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/less/less-590-1.tar.xz 354a576805c8622514dc8863941ac56faaf031965b05858e5f531d3c25f2899faa683d266f39b3cd7110fd5289d52b57112246b8f7f32869aeca593f2eff224f
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/texinfo/info/info-6.8-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/texinfo/info/info-6.8-2.tar.xz 65d66d6de69c77693f4c317d13018eccd2541b9428b383214c1d8e93d54f7f1b303440b4cb05d9c06d65488b499e194a87e9b881100776fccfc4ae5449432fcd
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz 62759e8dcdc49a42c7d4cdfacb673048a371d7b3964eaedeebeb8f0a59988ea41c2f6eae93f9c8609325f1a32fe76b2edb29742917441d377e2cc93cd6dec289
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz 7c1e4c913084bfff345f75e58ebc5cd40a1f316c5fa2e9754d033b189619e2926917298a0b1d52ac1e40c680bbfa96dfca2497a8971a604ce2344f2d61818312
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz a4b4f91825257abcb365aa2892cfa2525f9583f2649e6fc71a2b7afd68ec3b0a2f58cfc21bfa02c90569e900b283f494d9e6fae1f8ca63641b9c02a7b7076ebc
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz dfa1c60c64e94df9f104996db95abbb01194eb5e546d324e698e32639838dbc685053bfd1fe069d792e7064edc191922638935a8f6a438a1653186750dbc854e
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.1.1-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.1.1-1.tar.xz e1e695a746fa0e08bcd48c85a85c824da45a9a93da13ded5bf94e181f1073e3de1b762da7fc2d3f8f9eca8edca51dcd6e195d01bdab1089a0adad90fb5daf937
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz e7e8309adbe6612553e6aa60521317b4d66db8f8086fcafcd3032a7d2a19e711123e4d16bd8d17b966d710e4a2b7b79b8d0860d931cc1b7b6bc6d1a6bfa3291b
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz 2d224cf0290e73e2aaf2dc4d654f932562304b68b34249a214728e3ace3e48a58bb59cc4cf03eff8f20c5872b9972eff1ecc96235debeeaa6ae42f94f7ab121a
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2022b-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2022b-1.tar.xz d16cadaa8a8a4ed345cebe059dc501c6d7e593b38b7d9c0944df71efc91d3cab57feebbb89bd2a9c078ad3b8f425dc570043eb816186f494e2e897e1e61f7ac4
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz 1c3590e6f80e6d051dc044d2099e44c14e6e885423a780054b1af88593c12367abda83ea59bc52ff52074272f3002f1bc28608640aa70219698677056d0828bb
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz 530f47640d878f5953580f3556c492a93786191abe573322026b70206a46c7f17d05927784db3e7f2c044d1555f35941880316f7288b887eaec770a9eda4c687
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.2-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.2-1.tar.zst 93d5788a289a7b48c9e2730e6a40949063c3e8b9fada194157fe517f974052de1dd508b2203ac65a47cad5c5dc5aaba834236e20c2c4a3e58caa3884c2193423
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/xz/xz-5.2.6-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/xz/xz-5.2.6-1.tar.zst a37cdb3e4a6a9103ae3e9df03282cd8da23597398d5c90044d4fca976c917b531c812ed1dbef65bda5d02b61ee03e46d2966849af2b9ce08cfe3805ecd7e9087
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.12-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.12-1.tar.xz b857e42dbb4a1af6c04112a5ab9c794b3a95922e86accab8c64ce538122445044a9856abbfa7c2b449bfe0e26c22d095874d6b6fe99652a4b6103ffc10913def
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz 0d369dbcdc07973bf8ece428b3500bc901c5d6e34de3ccb0eba48dce40bcb3d6493339341bb34dffd93dcc3cd288b4f0c9c96f5499aa3b854186673914aeb4b5
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/grep/grep-3.7-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/grep/grep-3.7-2.tar.xz c3a098c5a41a4a2fcb1c5f650edd481dccddd7f22e81b03d1014c3c46eee2a1dce6e5d05e1be1f45fac161da5550b0f4303a6a2747226097f5b5b9ffce8e00b1
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.9.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.9.0-1.tar.xz 7344cc60fee752f1e6c1678fc86929c4c92251a43c5009a83af4c683a12b6bd1b14e86d3f4af34d583a40a0c6e8632597c0eb2bc826f448a8f0c518384e5cf77
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz 44d50ff08528df786eeb26ec1d312445ec92d77ecc9f448a3b741f7647e187f11eabdc0b38f8ab8de803e21d2e610f67eb44de7554f3fa83f6e8172e609b0054
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2022.2.54-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2022.2.54-1.tar.zst 66952b3457cb2b5c928ffd85f7b54f576a1b3853a55e97942922626d80ffe0c39a45802edf40ffa9980a210dc47609cb8fe24fba9df79436ba2b0831dcfe7d58
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz 647e7642c7346f23b6b1ca1c89359b2576e853ae70d8ff6445d484d4cb518f30650de67673ec79f983138a89dc63b71f7116817fabeb8e137eae628dee2e2722
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.10.2-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.10.2-1.tar.zst 0a1adbd8641fdba7e7d10fddcee3b99ac0ca97b222ea992d1888ffa64daa1b588622e8471644a4f7d7e91f1bb28338085f3f0240c4f1005f635d5a92447d7c96
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst dfafbe28fbe89d9b72a2eeb10901712e04de71d9089a85cfd2b8d45ffd739bdd49dadb7b57d098f01b8902456f5b839e9d4a10dbd6a8001573e035fde6797b63
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1q-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1q-1.tar.zst 0562068c5bfd9a9e1cfd7511bbf7cb8124b67d70e12e055d1fb37a5e5717d8f43588c48bd9a7191354b2ca0270cacc2ab81de04f76c62bfbfe9c8f6d569fe8b8
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tar/tar-1.34-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tar/tar-1.34-1.tar.zst 7b35b9cb4857ef2e6d2efb94e776209a636759258c696b4e8ee3f675c9d46c6aff4a42d4cfaa30d24f36fac3f7af67e980ab84649dfbb565c99a64efa2c14343
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1q-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1q-1.tar.zst a6f8d692ceda23467d76ae0616b5716794f338003f85c2ccdabb87c693ddd53a8da8c93ebd0d8bb016d0bf73dbae6a1a1114df953d271042a36c81e89bace026
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/ansible/ansible-2.8.2-1-src.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1-src.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1-src.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1-src.tar.xz 249ec6f0af977450da64f480c989e53a8e3f39e380da3d102d65053e994b0e21928e9d0329184a5cbfa860f89ab262dbb78cd3e662d05abe7aa802b4416bc6ea
+2022/08/20 14:15:27 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1-src.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/ansible/ansible-doc/ansible-doc-2.8.2-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-doc/ansible-doc-2.8.2-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-doc/ansible-doc-2.8.2-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-doc/ansible-doc-2.8.2-1.tar.xz f51cd0f46e061574d841a5aff1ffc0c6452cce78e518c35b247deeb89ebbca7f34c9bc1f33e57d68c0c6d45d817d1a923838f9129188d2e63ecc6033321f73dd
+2022/08/20 14:15:29 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-doc/ansible-doc-2.8.2-1.tar.xz
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1-src.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1-src.tar.xz 249ec6f0af977450da64f480c989e53a8e3f39e380da3d102d65053e994b0e21928e9d0329184a5cbfa860f89ab262dbb78cd3e662d05abe7aa802b4416bc6ea
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/base-files/base-files-4.3-3-src.tar.zst C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3-src.tar.zst.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3-src.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3-src.tar.zst 7fe6bd65c3d1a5a15fe4af0db15177c7fd7db0d2ac66389e3ece71e27ee7ef9a6f768baf3f047d25ca53acdb5758eefa3fee8e1543420e9ab7c6dd32122c3f0c
+2022/08/20 14:15:30 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3-src.tar.zst
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/bash/bash-4.4.12-3-src.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3-src.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3-src.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3-src.tar.xz 54872bdf56abc11e55d34179b877b315d9dfae0880a8249490fb37b0a9a2ba5b85bc276ccee3f4bd713daa127947c48aef605fc7f99d872058239625f9bbb516
+2022/08/20 14:15:31 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3-src.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/grep/grep-3.7-2-src.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/grep/grep-3.7-2-src.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/grep/grep-3.7-2-src.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/grep/grep-3.7-2-src.tar.xz 49201fe2dc2c602341de14ef7ad6b3da0eb3f5ca8d273a7e802f2274101de149368712c985ddf124f27074d2b4d79f730efd41c7db500719009dbf447b5fa275
+2022/08/20 14:15:32 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/grep/grep-3.7-2-src.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/hostname/hostname-3.13-1-src.tar.bz2 C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1-src.tar.bz2.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1-src.tar.bz2
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1-src.tar.bz2 5c8ebfcd966d26ad71216b28d019f0f39a2e66203322d593bf35347cfa9a93005fc8f90fbba1325c8cc5fe2a60a4bef11f78888e531a507debcf88f7d02f3415
+2022/08/20 14:15:33 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1-src.tar.bz2
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/tar/tar-1.34-1-src.tar.zst C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tar/tar-1.34-1-src.tar.zst.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tar/tar-1.34-1-src.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tar/tar-1.34-1-src.tar.zst d9f56278e061463ba4258a19ca23035b2f81fa6c3608a43114d77c6916a851a3434bd688d132631e6808bab23bdd1b70513f1bc2ec0addb11f52cb03523a0770
+2022/08/20 14:15:34 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tar/tar-1.34-1-src.tar.zst
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.3.5-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.3.5-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.3.5-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.3.5-1.tar.xz 3f92d50a7458457a65e9ccfecfc164bfc0e1fba8c673ea5c01d8758d3a465dfe86d3c36862235245fdf3f6707536218a61a0bd5432a054feb8108dc9c7b8e30c
+2022/08/20 14:15:34 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.3.5-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/w32api-headers/w32api-headers-10.0.0-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-10.0.0-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-10.0.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-10.0.0-1.tar.xz f3d39f2f6b9ad5c9d9959689e7ae2467a2ee876f090721ef719f8f17cbc6ceedcff0e46737018b4846a5149f4f72793e293c96b1bb47ecccde1950a868555583
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-10.0.0-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz cf303b9bab6f291745c1990c97286bad662cf7df53f2830049eabeac2bfac700ae2cb0a57b96654ac28a950a298dc194d41f1fbb3d2d132da7d740be0e417873
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/zstd/libzstd1/libzstd1-1.5.2-1.tar.zst C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.2-1.tar.zst.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.2-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.2-1.tar.zst c93b27a7ee856bde68099b42538f9e3cf65c65a139c740511308662fa4b181edfc6cdceba0d5b009e4c50a2348f22c571e756ea715a85b985eb7689b67eb520a
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.2-1.tar.zst
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/gcc/libatomic1/libatomic1-11.3.0-1.tar.zst C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-11.3.0-1.tar.zst.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-11.3.0-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-11.3.0-1.tar.zst 9386e2d6c9960a8ad59aa2d995396e2a395de7a1762e24253f041ba8e366ce5a448655c48048fe403879e95795ea011d502c1921d14f2083d183cb9df52e5791
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-11.3.0-1.tar.zst
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz 774b272d99dfb10ae610b08849ef7117fcb5e18e37c3da1a626fec0453393898c0fb2cf456f47daf295d4f4588e14e10d7f7ccb2761e93695fb051a78ecaf69d
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/yaml/libyaml0_2/libyaml0_2-0.2.5-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/yaml/libyaml0_2/libyaml0_2-0.2.5-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/yaml/libyaml0_2/libyaml0_2-0.2.5-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/yaml/libyaml0_2/libyaml0_2-0.2.5-1.tar.xz 98b3e9378878d889a1508e7bd55cc27c39ea4a5d17f2e542b38f84152e8edf27a7f59343b981053415a8b383ea9268b47bc4c845ba2cb3b6ceb940560cb8008a
+2022/08/20 14:15:35 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/yaml/libyaml0_2/libyaml0_2-0.2.5-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.34.0-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.34.0-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.34.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.34.0-1.tar.xz 5496c9cc8885e9a17409d77e31d4f8f825cd14bae553dd7b49cf6c89fc60b287cf15435b48a4096510d7bec209d22c3e5bf8d1b532ddf655b955072da1aa537e
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.34.0-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/expat/libexpat1/libexpat1-2.4.1-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/expat/libexpat1/libexpat1-2.4.1-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/expat/libexpat1/libexpat1-2.4.1-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/expat/libexpat1/libexpat1-2.4.1-1.tar.xz ac73ae3506c0ef399d9851b567d66a8a23b6768d0f3830f1616b891bcbf5df1a4762c99506dd42835cc18fd09614bb3f4db9fa090833fdd8deca0c40574cde67
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/expat/libexpat1/libexpat1-2.4.1-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz 364833ae860ca997d1749690621b94be8a5ec3e00d2ad5d6e5bc6981d984f47d9b4d322729e789953fdbff4cb430ff9a3ba0c49363f8fb0d5f9e61ab1bbb37bb
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/sshpass/sshpass-1.06-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sshpass/sshpass-1.06-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sshpass/sshpass-1.06-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sshpass/sshpass-1.06-1.tar.xz 62cfe6338d945c208081545c632ba0b8456db2a6dad34876a89e68665cf3ebcd8f866dee153690b76745fcdba72a34967827a1a2c3cf6da904a4a92fcc0129f7
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sshpass/sshpass-1.06-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/w32api-runtime/w32api-runtime-10.0.0-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-10.0.0-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-10.0.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-10.0.0-1.tar.xz b435d16433b5e1d0da6dd1f5a1deba57f8ca0cc68a76782ad05ec73232c377708b9db26c4f1bf696355bbd5e7932657d517d9e0a17862a474977d760c43bc084
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-10.0.0-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/isl/libisl23/libisl23-0.25-1.tar.zst C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/isl/libisl23/libisl23-0.25-1.tar.zst.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/isl/libisl23/libisl23-0.25-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/isl/libisl23/libisl23-0.25-1.tar.zst 5f5f36e30f464004a633d61c80d2f14983777c88a853ceb2167bc9f1ea80194e886bb5abb6bd3f165d0e8fe708e234a85bd8d042a6031f508ab2769bc2d4067a
+2022/08/20 14:15:36 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/isl/libisl23/libisl23-0.25-1.tar.zst
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/gcc/libquadmath0/libquadmath0-11.3.0-1.tar.zst C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-11.3.0-1.tar.zst.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-11.3.0-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-11.3.0-1.tar.zst b943b3039c06e8459d227375eb815fc50f27816de1707cb0b56370a6c4862edb7a98c85f795a45738be63954b88f6d67782addbc827a1339e864df935a6bbd97
+2022/08/20 14:15:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-11.3.0-1.tar.zst
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/gcc/libgomp1/libgomp1-11.3.0-1.tar.zst C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-11.3.0-1.tar.zst.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-11.3.0-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-11.3.0-1.tar.zst b10d6c9b55233b234aaff34f30b871ff0e26e383cec9e59d7e9274022d976d0de7413b8121121dda156ce859505f8ca8dfb54bb75a68413d5dbfd73494809043
+2022/08/20 14:15:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-11.3.0-1.tar.zst
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz 3344fbc09364d789e92a81af5ba1e830dd47cef3392a1ee389a2fd49a9cc56a63afc78bebefb92c025d8222e6e454c114d572f0f395e5e20ede2b2266b0fe709
+2022/08/20 14:15:37 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz 93162fc8430153b054c77c1dea7d9df6be8422922a9ee6fd923b46797c466200d78e80cb4e17387dd18ed1631a7828a57169fdc743c7b2a7a270259aa586113d
+2022/08/20 14:15:38 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/binutils/binutils-2.38-1.tar.zst C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/binutils/binutils-2.38-1.tar.zst.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/binutils/binutils-2.38-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/binutils/binutils-2.38-1.tar.zst f9725f48a8189f4091aedbbd53ebcd75334eb04c011b7f10e32c4a06ba518515d1425b2717cec8b0208e21d8e19dd49ddf0329713280725cc32f83da37a97539
+2022/08/20 14:15:39 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/binutils/binutils-2.38-1.tar.zst
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/mpclib/libmpc3/libmpc3-1.2.1-2.tar.zst C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.2.1-2.tar.zst.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.2.1-2.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.2.1-2.tar.zst f0b0807a763c6016fca327cfe4f2915fbad9e71bbe816b4bd4d534dcbc8d5315e6e317e3844196e8af875ee51a05f3dd7922a7ceee59aead4eeb39ec82b1c78c
+2022/08/20 14:15:39 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.2.1-2.tar.zst
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz 8bbfb6d4c2d30999d743d556ce8b4e1ca7513ad0c9362acf20f090f159917487ad0847c2009a4fc16bb4a29ba217ea1f454ba8d713dd2ab2c70c25da7b64343e
+2022/08/20 14:15:39 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz 249808d087f1a1ac7a5b117aaf499e173c9e404b224b9d9ff5a5fa1d2ace8b7c1185100bfa33174a82cbc250f376671d48b7d93d11924b5c4b524897841e2967
+2022/08/20 14:15:40 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz 1f1fab6ffb7318afdf01ff6bcfd6f5bd8e47fef68d754e048c71df3534635a0ef6760952cb101bbcbe9e9cc3d6a0fa0c3f232bf90f949059e91c5c655c1b5017
+2022/08/20 14:15:40 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz 639bb23f5bafc62fe6d36d44f1786445b949db5547dee66c73ec75c5d1d9d3444b8f326ffae811fb18fed3e85fead713362cf2c2488f880d3f5bc8ea087cee64
+2022/08/20 14:15:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz 0b9922b28f24f260bccb179c52354377173c1f0243420fb655154b4bd6da99af33b17c172dc46344d9fb38756abb0d8d449d5c7fba7f179dda7a3337c330224f
+2022/08/20 14:15:41 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/gcc/gcc-core/gcc-core-11.3.0-1.tar.zst C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-11.3.0-1.tar.zst.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-11.3.0-1.tar.zst
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-11.3.0-1.tar.zst 79960b5a3ae88f88ddad36a99e61f6d10a441b1ffae88cda67d416fe768784139d5aeb35ec87a7849083961690daff038a5a9d5d41e93da3b6064ab335ffec2b
+2022/08/20 14:15:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-11.3.0-1.tar.zst
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/csih/csih-0.9.11-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/csih/csih-0.9.11-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/csih/csih-0.9.11-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/csih/csih-0.9.11-1.tar.xz 5082b36031c542e4f6941e6cbaa0cf70a0cc812d43da9a410aba986812f4b8ea27c135febacfe2fe2259c1797eaa9722b23efd6b59085f431eb7c9674b2b3271
+2022/08/20 14:15:43 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/csih/csih-0.9.11-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/libfido2/libfido2-1.11.0-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libfido2/libfido2-1.11.0-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libfido2/libfido2-1.11.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libfido2/libfido2-1.11.0-1.tar.xz caf5d956c2496f8a363a420acb7b56482e823e4daca7425014738f0ffd52ebae9e4e2918ef60c7f060415285256811b5a68d045e213152b2bab8758cf90ef4db
+2022/08/20 14:15:44 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libfido2/libfido2-1.11.0-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/python37/python37-3.7.12-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python37/python37-3.7.12-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python37/python37-3.7.12-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python37/python37-3.7.12-1.tar.xz a74ff5c51f916751c212fcf2425beb93e9b3820397545ccbd49e7ae28ab3b7be34a89888031d348bb9b86bb642a4c0032980c7653b56393d8ea664ac3ecc98da
+2022/08/20 14:15:45 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python37/python37-3.7.12-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/openssh/openssh-9.0p1-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssh/openssh-9.0p1-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssh/openssh-9.0p1-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssh/openssh-9.0p1-1.tar.xz 4afe9cd14b058d334cc14db7a9d53f38a761aa88ba0c0ed54490fad86d5961cbd7c8d7cb7f14eb17455df07de194279b07e409f9a10af35f2d05e820c133118d
+2022/08/20 14:15:45 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssh/openssh-9.0p1-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-setuptools/python37-setuptools/python37-setuptools-59.5.0-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-setuptools/python37-setuptools/python37-setuptools-59.5.0-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-setuptools/python37-setuptools/python37-setuptools-59.5.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-setuptools/python37-setuptools/python37-setuptools-59.5.0-1.tar.xz d00deb469a8c8fe7dc82d08788ed021812633925f76d9983e7a22b68ba092ac25dc039d0ea427c93452c9f0b1924de30a572ed7122df2a9d51615300b37fb3c3
+2022/08/20 14:15:46 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-setuptools/python37-setuptools/python37-setuptools-59.5.0-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-pip/python37-pip/python37-pip-21.3.1-3.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pip/python37-pip/python37-pip-21.3.1-3.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pip/python37-pip/python37-pip-21.3.1-3.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pip/python37-pip/python37-pip-21.3.1-3.tar.xz 51acce11f53a75915dd3f26c1d8b5ca005b92506ad0e46d74f0a7c8317c49ecd2952d2b1b69da971eba13fdaee9d562ec6c7e5267da29d18184220b30ad28f75
+2022/08/20 14:15:47 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pip/python37-pip/python37-pip-21.3.1-3.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/python-markupsafe/python37-markupsafe/python37-markupsafe-2.0.1-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-markupsafe/python37-markupsafe/python37-markupsafe-2.0.1-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-markupsafe/python37-markupsafe/python37-markupsafe-2.0.1-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-markupsafe/python37-markupsafe/python37-markupsafe-2.0.1-1.tar.xz 619bd27df957e1087b6793dc82f751aa8ae3327cf6e59b59a749ad171015490a231c2f8740d01952b1149c055d38e96f3caccf2a227b2385f0afc85dfe4f4667
+2022/08/20 14:15:47 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-markupsafe/python37-markupsafe/python37-markupsafe-2.0.1-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-ply/python37-ply/python37-ply-3.11-3.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-ply/python37-ply/python37-ply-3.11-3.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-ply/python37-ply/python37-ply-3.11-3.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-ply/python37-ply/python37-ply-3.11-3.tar.xz 8fc4b2d43f2e7946a54b6fdf816d497266bfad0e23514ab9a25bf0ca981d7949350142fcf8b33b5932f2b15cb24ed46c37e7b0b8527afe69bedeb460152c9b4f
+2022/08/20 14:15:47 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-ply/python37-ply/python37-ply-3.11-3.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/python-yaml/python37-yaml/python37-yaml-6.0-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-yaml/python37-yaml/python37-yaml-6.0-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-yaml/python37-yaml/python37-yaml-6.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-yaml/python37-yaml/python37-yaml-6.0-1.tar.xz 7a2be6974d3d745a11b290a5bcd2167026d06bd3c176444264a7e59f4c2d10945f994f886d80c670ebb70d3fcea68a7d18bf37fe2903352dc3186171c5f030c3
+2022/08/20 14:15:48 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-yaml/python37-yaml/python37-yaml-6.0-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-jmespath/python37-jmespath/python37-jmespath-0.10.0-2.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-jmespath/python37-jmespath/python37-jmespath-0.10.0-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-jmespath/python37-jmespath/python37-jmespath-0.10.0-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-jmespath/python37-jmespath/python37-jmespath-0.10.0-2.tar.xz 040f621257d69bacc79ec8ff1ac1497e7d4d174db05f3f5373fd66df28fd89e7104f3ada4fb065d0a09be113e1ac50368fbfb2eb930cfeb5fba7048a09085ce5
+2022/08/20 14:15:48 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-jmespath/python37-jmespath/python37-jmespath-0.10.0-2.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-certifi/python37-certifi/python37-certifi-2021.10.8-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-certifi/python37-certifi/python37-certifi-2021.10.8-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-certifi/python37-certifi/python37-certifi-2021.10.8-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-certifi/python37-certifi/python37-certifi-2021.10.8-1.tar.xz 9f6069ce731ab80155902946a3ced4d34a762ebb10ca5c7e05e57ee3e47d051588e997eb31165db483385d20a5b9c7ab68133ee299a80f1429dc9e626b363b37
+2022/08/20 14:15:48 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-certifi/python37-certifi/python37-certifi-2021.10.8-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-idna/python37-idna/python37-idna-3.3-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-idna/python37-idna/python37-idna-3.3-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-idna/python37-idna/python37-idna-3.3-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-idna/python37-idna/python37-idna-3.3-1.tar.xz faea5ea9aa83ff8326e9e4d20b0b5a217137cac9aba7307cb4b15369b2e002cc984f48e954c1af4e4bd4fb7b82f8704c7c896c0c1acb90d2799301ed20fc9f98
+2022/08/20 14:15:48 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-idna/python37-idna/python37-idna-3.3-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-chardet/python37-chardet/python37-chardet-4.0.0-2.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-chardet/python37-chardet/python37-chardet-4.0.0-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-chardet/python37-chardet/python37-chardet-4.0.0-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-chardet/python37-chardet/python37-chardet-4.0.0-2.tar.xz f303d8566fca811e6f187e2505b3d3e061bced26978f4ec5a5b0022daf301f214c8269f098adb622ddbb7658804111af1fb5cbb8daad81a927e7598b11b8d3d8
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-chardet/python37-chardet/python37-chardet-4.0.0-2.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-ntlm-auth/python37-ntlm-auth/python37-ntlm-auth-1.5.0-2.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-ntlm-auth/python37-ntlm-auth/python37-ntlm-auth-1.5.0-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-ntlm-auth/python37-ntlm-auth/python37-ntlm-auth-1.5.0-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-ntlm-auth/python37-ntlm-auth/python37-ntlm-auth-1.5.0-2.tar.xz b543f988d22bbd844edf28a145e2a03b8997edfcb7035f29105103fa9b86c87b5c312302d0103c938b3a3fba2a0fdcb588b9926c7832ce654739cb8d82a9d679
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-ntlm-auth/python37-ntlm-auth/python37-ntlm-auth-1.5.0-2.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-xmltodict/python37-xmltodict/python37-xmltodict-0.12.0-3.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-xmltodict/python37-xmltodict/python37-xmltodict-0.12.0-3.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-xmltodict/python37-xmltodict/python37-xmltodict-0.12.0-3.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-xmltodict/python37-xmltodict/python37-xmltodict-0.12.0-3.tar.xz bdd0b771e31f0c072ddf9637c51529d977fdfda53705ca8c8344ad4dad2c150b655bdf4db0ea9b4379121aa7c10d9fa755a93a4d0cda3b7689d768a465952140
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-xmltodict/python37-xmltodict/python37-xmltodict-0.12.0-3.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-six/python37-six/python37-six-1.16.0-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-six/python37-six/python37-six-1.16.0-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-six/python37-six/python37-six-1.16.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-six/python37-six/python37-six-1.16.0-1.tar.xz 52610455045ce106b8e77a8a7770c6bdee99bac0f2940f4ef4e1a634e174501f2560cced1101bf74b2dee02df8b49c538d2af52970af8be4bcfee9378ed797bd
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-six/python37-six/python37-six-1.16.0-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-passlib/python37-passlib/python37-passlib-1.7.1-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-passlib/python37-passlib/python37-passlib-1.7.1-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-passlib/python37-passlib/python37-passlib-1.7.1-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-passlib/python37-passlib/python37-passlib-1.7.1-1.tar.xz ae16d50bc1a603e8638d32a50d783f4008e85549272f9b749657bde36dcbbb26714c62b8cf256f6d8ae4f97f2f67a1ff1effa6750c1128be808de52dc6d9bdc5
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-passlib/python37-passlib/python37-passlib-1.7.1-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-jinja2/python37-jinja2/python37-jinja2-3.0.3-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-jinja2/python37-jinja2/python37-jinja2-3.0.3-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-jinja2/python37-jinja2/python37-jinja2-3.0.3-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-jinja2/python37-jinja2/python37-jinja2-3.0.3-1.tar.xz 40efea5181355ed34c708c6b701e2dc9e4db8b374eef3ac7c8bfb933c90d3f46aafe04b604bec95ec6c7b5b9eb87949bf719fbae30d97196210716b8eb8eba58
+2022/08/20 14:15:49 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-jinja2/python37-jinja2/python37-jinja2-3.0.3-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-pycparser/python37-pycparser/python37-pycparser-2.20-2.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pycparser/python37-pycparser/python37-pycparser-2.20-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pycparser/python37-pycparser/python37-pycparser-2.20-2.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pycparser/python37-pycparser/python37-pycparser-2.20-2.tar.xz 7879bd93654dd5f73994cf23627a2ca2e7a3f1ab5561fca3159f8dd8fa7705801c84e5cb5dc12c51c770c614e147c7613431579e4614f374ebc9c32dcc6f8acc
+2022/08/20 14:15:50 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pycparser/python37-pycparser/python37-pycparser-2.20-2.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-urllib3/python37-urllib3/python37-urllib3-1.26.7-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-urllib3/python37-urllib3/python37-urllib3-1.26.7-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-urllib3/python37-urllib3/python37-urllib3-1.26.7-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-urllib3/python37-urllib3/python37-urllib3-1.26.7-1.tar.xz 06aef54f08464cf265615d748165dfc4b6f1ad5b8176b448b977ea8a50efb35c881264639311357acb3aa18d86d43aaa378144cebed7306b4c251476f33f7c23
+2022/08/20 14:15:50 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-urllib3/python37-urllib3/python37-urllib3-1.26.7-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/python-cffi/python37-cffi/python37-cffi-1.15.0-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-cffi/python37-cffi/python37-cffi-1.15.0-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-cffi/python37-cffi/python37-cffi-1.15.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-cffi/python37-cffi/python37-cffi-1.15.0-1.tar.xz cbe46a91b5abc3e068f3491fefc999a88e2b130526002adaa9089e1f040b2d24aedb4ec20c125627e9b41a8f129ba50cea117989741af8fbe012b9a501c485d6
+2022/08/20 14:15:50 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-cffi/python37-cffi/python37-cffi-1.15.0-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-requests/python37-requests/python37-requests-2.27.1-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-requests/python37-requests/python37-requests-2.27.1-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-requests/python37-requests/python37-requests-2.27.1-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-requests/python37-requests/python37-requests-2.27.1-1.tar.xz f6229b57195c15efd51f06b909327018f0ca1285b87b03c21b09f177e8d06a1330b38fa34b4f2a980bcd3e4cd93a447c6a05f1db1d762807ff1744684ca4039e
+2022/08/20 14:15:50 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-requests/python37-requests/python37-requests-2.27.1-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/x86_64/release/python-cryptography/python37-cryptography/python37-cryptography-3.3.2-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-cryptography/python37-cryptography/python37-cryptography-3.3.2-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-cryptography/python37-cryptography/python37-cryptography-3.3.2-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-cryptography/python37-cryptography/python37-cryptography-3.3.2-1.tar.xz 3b5a5fb94bf233d38c60e3e80eb59ec2b51c41eec7c8665da04ee976111d5f85a7859245f8577a7e4583d990ae117bd82d22966a8a88f4547c94795d9afbb415
+2022/08/20 14:15:51 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python-cryptography/python37-cryptography/python37-cryptography-3.3.2-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-requests_ntlm/python37-requests_ntlm/python37-requests_ntlm-1.1.0-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-requests_ntlm/python37-requests_ntlm/python37-requests_ntlm-1.1.0-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-requests_ntlm/python37-requests_ntlm/python37-requests_ntlm-1.1.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-requests_ntlm/python37-requests_ntlm/python37-requests_ntlm-1.1.0-1.tar.xz 28b5ec220e78baae0e229e890de88d1d1efb1de3acc0ab02389badaae835fc049c96ac52c3d6f0418a859faf2783cd571f8df58b5b7dae6560421142e4b58c03
+2022/08/20 14:15:51 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-requests_ntlm/python37-requests_ntlm/python37-requests_ntlm-1.1.0-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-pypsrp/python37-pypsrp/python37-pypsrp-0.3.1-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pypsrp/python37-pypsrp/python37-pypsrp-0.3.1-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pypsrp/python37-pypsrp/python37-pypsrp-0.3.1-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pypsrp/python37-pypsrp/python37-pypsrp-0.3.1-1.tar.xz 6a1a5d712714bba863ffe72bbf567c307df8de7ad2fd414dc4d09ab974fd37f89401ba5bb91e1fb295cdd003a63386b94a3f3b5f6e86ee8c1f67e0f43422c78c
+2022/08/20 14:15:51 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pypsrp/python37-pypsrp/python37-pypsrp-0.3.1-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/python-winrm/python37-winrm/python37-winrm-0.3.0-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-winrm/python37-winrm/python37-winrm-0.3.0-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-winrm/python37-winrm/python37-winrm-0.3.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-winrm/python37-winrm/python37-winrm-0.3.0-1.tar.xz 0cff81bfd7733177bf2629fc2f731e205f8d0d00a69557c9d46f04d44ab5d8be594a7bdaa9c8d18b7597831ec484364ee78b1335952e66bde920da7fbce54040
+2022/08/20 14:15:51 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-winrm/python37-winrm/python37-winrm-0.3.0-1.tar.xz
+get_url_to_file https://mirrors.aliyun.com/cygwin/noarch/release/ansible/ansible-2.8.2-1.tar.xz C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1.tar.xz
+SHA512 verified OK: file://C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1.tar.xz 4c82f661b24af3616699ba1b20970a0b6907f7a75ac186fe7d7c58ff39edfe424c0d01356b4a2d2b6ef76760e39622a6ae5b7b2832eae1174a96a91a7b56fa61
+2022/08/20 14:15:54 Downloaded C:\Users\Artem Chapligin\Downloads\cygwin/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ansible/ansible-2.8.2-1.tar.xz
+2022/08/20 14:15:56 note: Download Complete
+2022/08/20 14:15:56 Ending cygwin install
