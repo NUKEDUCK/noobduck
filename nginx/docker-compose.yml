@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  nginx:
+    image: 'nginx:1.23.1-alpine'
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - nginxdata:/etc/nginx
+    networks:
+      infra:
+        aliases:
+          - gitea.localhost
+          - drone.localhost
+
+networks:
+  infra:
+
+volumes:
+  nginxdata:
+    driver: local

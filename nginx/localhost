@@ -1,0 +1,41 @@
+server {
+  listen 80;
+  server_name gitea.localhost;
+
+  if ($scheme = https) {
+    return 301 http://$server_name$request_uri;
+  }
+  resolver 127.0.0.11 ipv6=off;
+  set $upstream_endpoint http://gitea:3000;
+  gzip on;
+  gzip_disable "msie6";
+  gzip_types text/css application/json text/javascript application/javascript;
+
+  location / {
+    proxy_set_header            Host $http_host;
+    proxy_pass                  $upstream_endpoint;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+  }
+}
+
+server {
+        listen 80;
+        server_name drone.localhost;
+         
+      if ($scheme = https) {
+    return 301 http://$server_name$request_uri;
+  }
+  resolver 127.0.0.11 ipv6=off;
+  set $upstream_endpoint http://drone:80;
+
+        location / {
+        proxy_set_header            Host $http_host;
+        proxy_pass                  $upstream_endpoint;
+        proxy_redirect off;
+        proxy_http_version 1.1;
+        proxy_buffering off;
+        chunked_transfer_encoding off;
+    }
+}

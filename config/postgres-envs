@@ -1,0 +1,3 @@
+export POSTGRES_USER="postgres"
+export POSTGRES_PASSWORD="Bk76BB2Kf5theCZsjZ"
+export POSTGRES_PUBLIC_PORT="5432"

@@ -1,0 +1,6 @@
+export DEV_MODE=true
+export DOCKER_COMPOSE_FILE="docker-compose.yml"
+export SSH_PUBLIC_PORT="8086"
+export NGINX_PUBLIC_PORT="8084"
+export WEB_PUBLIC_PORT="8085"
+export RUN_CROND=true

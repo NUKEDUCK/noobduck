@@ -1,0 +1,113 @@
+version: '3'
+services:
+  nginx:
+    image: 'nginx:1.23.1-alpine'
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - nginxdata:/etc/nginx
+    networks:
+      infra:
+        aliases:
+          - gitea.localhost
+          - drone.localhost
+    depends_on:
+      - gitea
+      - drone-serv
+  postgres:
+    image: postgres:14.5-alpine
+    restart: always
+    hostname: postgres
+    environment:
+      - POSTGRES_USER=gitea
+      - POSTGRES_PASSWORD=gitea
+      - POSTGRES_DB=gitea
+      - PGDATA=/var/lib/postgresql/data/db-files/
+    volumes:
+      - pgdata:/var/lib/postgresql/data/
+      - pgconf:/etc/postgresql
+      - pglog:/var/log/postgresql
+    networks:
+      - infra
+    ports:
+      - 5432
+  gitea:
+    image: gitea/gitea:1.17.1
+    restart: always
+    hostname: gitea
+    ports:
+      - 8086:3000
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+      - GITEA__database__DB_TYPE=postgres
+      - GITEA__database__HOST=postgres:5432
+      - GITEA__database__NAME=gitea
+      - GITEA__database__USER=gitea
+      - GITEA__database__PASSWD=gitea
+      - GITEA__server__ROOT_URL=http://gitea.localhost
+    networks:
+      - infra
+    volumes:
+      - giteadata:/data
+    depends_on:
+      - postgres
+  drone-serv:
+    image: drone/drone:2.12.1
+    hostname: drone
+    networks:
+     - infra
+    ports:
+      - 8085:80
+      - 8000
+    volumes:
+      - dronedata:/var/lib/drone/
+    restart: always
+    depends_on:
+      - gitea
+    environment:
+      - DRONE_LOGS_DEBUG=true
+      - DRONE_RPC_DEBUG=true
+      - DRONE_OPEN=true
+      - DRONE_SERVER_HOST=drone.localhost
+      - DRONE_SERVER_PROTO=http
+      - DRONE_GITEA_SERVER=http://gitea.localhost
+      - DRONE_GITEA_CLIENT_ID=6eda8c31-5036-4f51-aff7-f6c254a3dc1e
+      - DRONE_GITEA_CLIENT_SECRET=gto_l4deeffmcnu247clrly2rvkr7yxfnkg4qgm5hrixz2thernusabq
+      - DRONE_RPC_SECRET=28c60bb91bf6571d5f4331e4b2674cbd
+      - DRONE_AGENTS_ENABLED=true
+  drone-agent:
+    image: drone/drone-runner-docker:1.8.2
+    restart: always
+    depends_on:
+      - drone-serv
+    networks:
+     - infra
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - DRONE_RPC_HOST=drone
+      - DRONE_RUNNER_CAPACITY=4
+      - DRONE_RPC_PROTO=http
+      - DRONE_RPC_SECRET=28c60bb91bf6571d5f4331e4b2674cbd
+      - DRONE_RUNNER_NETWORKS=infra
+
+networks:
+  infra:
+    driver: bridge
+
+volumes:
+  pgdata:
+    driver: local
+  pgconf:
+    driver: local
+  pglog: 
+    driver: local
+  giteadata:
+    driver: local
+  dronedata:
+    driver: local
+  nginxdata:
+    driver: local
