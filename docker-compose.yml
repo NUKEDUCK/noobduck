@@ -1,29 +1,32 @@
 version: '3'
 services:
   nginx:
-    image: 'nginx:1.23.1-alpine'
+    image: 'docker-hub.binary.alfabank.ru/nginx:1.23.1-alpine'
     restart: always
     ports:
       - 80:80
       - 443:443
     volumes:
       - nginxdata:/etc/nginx
+      - .nginx/default:/etc/nginx/conf.d/default:ro
     networks:
       infra:
         aliases:
-          - gitea.localhost
+          - git.localhost
           - drone.localhost
+          - artapp.localhost
     depends_on:
-      - gitea
+      - bitbucket
       - drone-serv
+      - artifactory
   postgres:
-    image: postgres:14.5-alpine
+    image: docker-hub.binary.alfabank.ru/postgres:14.5-alpine
     restart: always
     hostname: postgres
     environment:
-      - POSTGRES_USER=gitea
-      - POSTGRES_PASSWORD=gitea
-      - POSTGRES_DB=gitea
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=pgpass
+      - POSTGRES_DB=drone
       - PGDATA=/var/lib/postgresql/data/db-files/
     volumes:
       - pgdata:/var/lib/postgresql/data/
@@ -33,58 +36,116 @@ services:
       - infra
     ports:
       - 5432
-  gitea:
-    image: gitea/gitea:1.17.1
-    restart: always
-    hostname: gitea
-    ports:
-      - 8086:3000
-    environment:
-      - USER_UID=1000
-      - USER_GID=1000
-      - GITEA__database__DB_TYPE=postgres
-      - GITEA__database__HOST=postgres:5432
-      - GITEA__database__NAME=gitea
-      - GITEA__database__USER=gitea
-      - GITEA__database__PASSWD=gitea
-      - GITEA__server__ROOT_URL=http://gitea.localhost
+  bitbucket:
+    image: docker-hub.binary.alfabank.ru/atlassian/bitbucket-server:7.6.0-jdk11
+    hostname: bitbucket
     networks:
       - infra
+    ports:
+      - 7990
+      - 7999
+    restart: always
     volumes:
-      - giteadata:/data
+      - bitbucket-data:/var/atlassian/application-data/bitbucket
+    environment:
+      - SERVER_SECURE=false
+      - SERVER_PORT=7990
+      - SERVER_SCHEME=http
+      - SERVER_PROXY_PORT=80
+      - SERVER_PROXY_NAME=git.localhost
+      - BITBUCKET_HOME=/var/atlassian/application-data/bitbucket/
+      - JDBC_DRIVER=org.postgresql.Driver
+      - JDBC_USER=postgres
+      - JDBC_PASSWORD=pgpass
+      - JDBC_URL=jdbc:postgresql://localhost:5433/bitbucket?sslmode=disable
+      - PLUGIN_SEARCH_CONFIG_BASEURL=http://git.localhost
     depends_on:
-      - postgres
+      - bitbucket-db
+  bitbucket-db:
+    image: docker-hub.binary.alfabank.ru/postgres:14.5-alpine
+    container_name: bitbucket-db
+    restart: always
+    ports:
+      - 5433
+    volumes:
+      - pggitdata:/var/lib/postgresql/data
+    environment:
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=pgpass
+      - POSTGRES_DB=bitbucket
+      - PGDATA=/var/lib/postgresql/data/db-files/
+      - PGPORT=5433
+  artifactory:
+    image: docker-hub.binary.alfabank.ru/truecharts/artifactory-oss
+    hostname: artapp
+    networks:
+      - infra
+    ports:
+      - 8086:8081
+    volumes:
+      - artappdata:/var/opt/jfrog
+    environment:
+      - DB_TYPE=postgresql
+      - DB_USER=postgres
+      - DB_PASSWORD=pgpass
+      - DB_PORT=5434
+      - DB_URL=jdbc:postgresql://artapp-db:5434/artapp?sslmode=disable
+      - ART_BASE_URL=artapp.localhost
+    restart: always
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 32000
+        hard: 40000
+  artapp-db:
+    image: docker-hub.binary.alfabank.ru/postgres:14.5-alpine
+    container_name: artapp-db
+    restart: always
+    ports:
+      - 5434
+    volumes:
+      - artapp-db-data:/var/lib/postgresql/data
+    environment:
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=pgpass
+      - POSTGRES_DB=artapp
+      - PGDATA=/var/lib/postgresql/data/db-files/
+      - PGPORT=5434
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 32000
+        hard: 40000
   drone-serv:
-    image: drone/drone:2.12.1
+    image: docker-hub.binary.alfabank.ru/drone/drone:2.12.1
     hostname: drone
     networks:
-     - infra
+      - infra
     ports:
       - 8085:80
       - 8000
     volumes:
       - dronedata:/var/lib/drone/
     restart: always
-    depends_on:
-      - gitea
     environment:
+      - DRONE_DATABASE_DRIVER=postgres
+      - DRONE_DATABASE_DATASOURCE=postgres://postgres:pgpass@postgres:5432/drone?sslmode=disable
       - DRONE_LOGS_DEBUG=true
       - DRONE_RPC_DEBUG=true
       - DRONE_OPEN=true
       - DRONE_SERVER_HOST=drone.localhost
       - DRONE_SERVER_PROTO=http
-      - DRONE_GITEA_SERVER=http://gitea.localhost
-      - DRONE_GITEA_CLIENT_ID=6eda8c31-5036-4f51-aff7-f6c254a3dc1e
-      - DRONE_GITEA_CLIENT_SECRET=gto_l4deeffmcnu247clrly2rvkr7yxfnkg4qgm5hrixz2thernusabq
       - DRONE_RPC_SECRET=28c60bb91bf6571d5f4331e4b2674cbd
       - DRONE_AGENTS_ENABLED=true
   drone-agent:
-    image: drone/drone-runner-docker:1.8.2
+    image: docker-hub.binary.alfabank.ru/drone/drone-runner-docker:1.8.2
     restart: always
     depends_on:
       - drone-serv
     networks:
-     - infra
+      - infra
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
@@ -110,4 +171,12 @@ volumes:
   dronedata:
     driver: local
   nginxdata:
+    driver: local
+  pggitdata:
+    driver: local
+  bitbucket-data:
+    driver: local
+  artappdata:
+    driver: local
+  artapp-db-data:
     driver: local
